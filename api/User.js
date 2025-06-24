@@ -279,9 +279,7 @@ router.post('/signup-new', async (req, res) => {
         const verificationToken = crypto.randomBytes(32).toString('hex');
         existingUser.verificationToken = verificationToken;
         await existingUser.save();
-
-        const verificationLink_site = `https://snowandwhite.onrender.com/user/verify-email-new?token=${verificationToken}`;
-        const verificationLink = `http://localhost:3000/user/verify-email-new?token=${verificationToken}`;
+        const verificationLink = `https://english-404y.onrender.com/user/verify-email-new?token=${verificationToken}`;
 
         await sendEmail(
           process.env.AUTH_MAIL,
@@ -309,7 +307,7 @@ router.post('/signup-new', async (req, res) => {
     await newUser.save();
 
     const verificationLink_site = `https://snowandwhite.onrender.com/user/verify-email-new?token=${verificationToken}`;
-    const verificationLink = `https://localhost:3000/user/verify-email-new?token=${verificationToken}`;
+    const verificationLink = `https://english-404y.onrender.com/user/verify-email-new?token=${verificationToken}`;
 
     await sendEmail(
       process.env.AUTH_MAIL,
@@ -343,7 +341,7 @@ router.get('/verify-email-new', async (req, res) => {
 
     // Redirect to Step 2 (profile completion page)
     // res.redirect(`https://snowandwhite.netlify.app/complete-profile?email=${user.email}`);
-    res.redirect(`http://localhost:3000/complete-profile?email=${user.email}`);
+    res.redirect(`https://english-404y.onrender.com/complete-profile?email=${user.email}`);
 
   } catch (error) {
     res.status(500).send("Error verifying email");
