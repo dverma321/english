@@ -1,0 +1,199 @@
+// data/Sentences.js
+
+module.exports = [
+  {
+    Heading: "Back in the day",
+    ImageUrl: "https://athleanx.com/wp-content/uploads/2015/06/how-to-build-the-best-complete-back-workout.jpg",
+    sentences: [
+      "Hello, how are you?",
+      "This is a translation test.",
+      "React is awesome!",
+      "Have a great day!",
+      "Back in the day, people used to be honest.",
+      "Back in the day, we ruled this city."
+    ]
+  },
+  {
+    Heading: "Everyday Phrases",
+    ImageUrl : "https://cdn.shopify.com/s/files/1/0471/3332/7519/files/machine-pump-back-day-header_480x480.jpg",
+    sentences: [
+      "What's up?",
+      "See you soon!",
+      "Take care.",
+      "Good job!",
+      "Have a nice weekend!"
+    ]
+  },
+  {
+    Heading: "Motivational Quotes",
+    sentences: [
+      "Never give up.",
+      "Believe in yourself.",
+      "Every day is a second chance.",
+      "Push harder than yesterday if you want a different tomorrow."
+    ]
+  },
+
+  {
+    Heading: "Daily Routine",
+    sentences: [
+      "I brush my teeth before I take a shower.",
+      "She drinks coffee after she wakes up.",
+      "He exercises every morning even though he's tired."
+    ]
+  },
+  {
+    Heading: "Work Life",
+    sentences: [
+      "I send emails as soon as I reach the office.",
+      "Although it was urgent, he didn’t reply on time.",
+      "She works overtime so that she can finish the project."
+    ]
+  },
+  {
+    Heading: "Home Life",
+    sentences: [
+      "I cook dinner while listening to music.",
+      "He takes out the trash before it starts to smell.",
+      "They clean the house after everyone leaves."
+    ]
+  },
+  {
+    Heading: "Talking About the Past",
+    sentences: [
+      "I was sleeping when the phone rang.",
+      "She had already left before I arrived.",
+      "Although I was tired, I continued working."
+    ]
+  },
+  {
+    Heading: "Making Plans",
+    sentences: [
+      "We’ll meet after the movie ends.",
+      "Call me when you get there.",
+      "Even if it rains, we’ll go out."
+    ]
+  },
+  {
+    Heading: "Giving Advice",
+    sentences: [
+      "You should sleep early if you want to wake up fresh.",
+      "Don’t skip breakfast even though you’re in a hurry.",
+      "Talk to him when you feel calm."
+    ]
+  },
+  {
+    Heading: "Shopping",
+    sentences: [
+      "I’ll buy it if the price is reasonable.",
+      "Although it looks good, it’s too expensive.",
+      "Check the expiry date before you pay."
+    ]
+  },
+  {
+    Heading: "Travel",
+    sentences: [
+      "Pack your bags before you go to sleep.",
+      "She checked in although she arrived late.",
+      "If the flight is delayed, we’ll wait at the lounge."
+    ]
+  },
+  {
+    Heading: "Health & Fitness",
+    sentences: [
+      "I go for a walk even if I’m tired.",
+      "She drinks water before she eats.",
+      "Although it's difficult, I try to eat healthy."
+    ]
+  },
+  {
+    Heading: "Technology",
+    sentences: [
+      "Update the app when you get a notification.",
+      "Charge your phone before it turns off.",
+      "Even though it’s new, the laptop is slow."
+    ]
+  },
+  {
+    Heading: "School & Study",
+    sentences: [
+      "I study harder when exams are near.",
+      "He writes notes while the teacher explains.",
+      "Although it's boring, I attend every lecture."
+    ]
+  },
+  {
+    Heading: "Phone Conversations",
+    sentences: [
+      "Call me if you need help.",
+      "Text me when you reach.",
+      "Even if I’m busy, I’ll answer."
+    ]
+  },
+  {
+    Heading: "Social Life",
+    sentences: [
+      "We go out together whenever we get free time.",
+      "Although I was invited, I didn’t go.",
+      "Let’s meet after work."
+    ]
+  },
+  {
+    Heading: "Hobbies",
+    sentences: [
+      "I read books when I have free time.",
+      "She plays guitar even though she’s tired.",
+      "Although it’s challenging, he loves painting."
+    ]
+  },
+  {
+    Heading: "Celebrations",
+    sentences: [
+      "We danced until the sun came up.",
+      "Even though it rained, we celebrated outside.",
+      "They cut the cake after everyone arrived."
+    ]
+  },
+  {
+    Heading: "Feelings & Emotions",
+    sentences: [
+      "I smile even when I’m sad.",
+      "He talks less when he’s upset.",
+      "Although she was angry, she remained calm."
+    ]
+  },
+  {
+    Heading: "Time Management",
+    sentences: [
+      "Finish your work before the deadline.",
+      "I avoid distractions while studying.",
+      "Even if I’m tired, I don’t waste time."
+    ]
+  },
+  {
+    Heading: "Helping Others",
+    sentences: [
+      "Help him even if he doesn’t ask.",
+      "She stays back to assist after class ends.",
+      "Although I was busy, I gave him time."
+    ]
+  },
+  {
+    Heading: "Nature & Weather",
+    sentences: [
+      "Take an umbrella in case it rains.",
+      "We stayed inside although it was sunny.",
+      "He jogs even when it’s cold outside."
+    ]
+  },
+  {
+    Heading: "Motivation & Mindset",
+    sentences: [
+      "Keep going even if it’s tough.",
+      "She believed in herself although others doubted her.",
+      "You’ll succeed when you stop giving up."
+    ]
+  }
+
+
+];
