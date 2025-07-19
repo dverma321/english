@@ -3,14 +3,11 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const http = require('http');
+const path = require('path'); // <-- Add this
 
-// require('./model/Order_dummy_data.js'); // manually inserting data
-
-
-require('./database/Mongoose.js'); // connecting Mongodb database
+require('./database/Mongoose.js');
 
 const app = express();
-
 const port = process.env.PORT || 3000;
 
 app.use(cors({
@@ -35,27 +32,20 @@ app.use('/contact', contactus_route);
 app.use('/checklogin', LoginAttempt_route);
 app.use('/language', lang_translate);
 
+// Serve frontend (React) static files
+app.use(express.static(path.join(__dirname, 'client/build')));
 
+// Fallback to React for other routes
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Internal Server Error');
 });
 
-// Create an HTTP server using the Express app
-const server = http.createServer(app); // Create the server
-
-const path = require('path');
-
-// Serve static files from React's build directory
-app.use(express.static(path.join(__dirname, 'client/build')));
-
-// Serve index.html for all non-API routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
-
-
+const server = http.createServer(app);
 server.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
