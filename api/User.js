@@ -341,7 +341,7 @@ router.get('/verify-email-new', async (req, res) => {
 
     // Redirect to Step 2 (profile completion page)
     // res.redirect(`https://snowandwhite.netlify.app/complete-profile?email=${user.email}`);
-    res.redirect(`https://https://englishdaily.netlify.app/complete-profile?email=${user.email}`);
+    res.redirect(`https://englishdaily.netlify.app/complete-profile?email=${user.email}`);
 
   } catch (error) {
     res.status(500).send("Error verifying email");
