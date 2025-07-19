@@ -45,6 +45,17 @@ app.use((err, req, res, next) => {
 // Create an HTTP server using the Express app
 const server = http.createServer(app); // Create the server
 
+const path = require('path');
+
+// Serve static files from React's build directory
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+// Serve index.html for all non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
+
+
 server.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
