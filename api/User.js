@@ -385,7 +385,9 @@ router.post('/complete-profile', async (req, res) => {
 
     await user.save();
 
-    res.status(200).json({ status: "200", message: "Profile completed successfully" });
+    // Generate a new token after profile completion
+    const token = await user.generateAuthToken();
+    res.status(200).json({ status: "200", message: "Profile completed successfully", token, isProfileCompleted: user.isProfileCompleted });
 
   } catch (error) {
     console.error(error);
