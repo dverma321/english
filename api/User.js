@@ -387,7 +387,16 @@ router.post('/complete-profile', async (req, res) => {
 
     // Generate a new token after profile completion
     const token = await user.generateAuthToken();
-    res.status(200).json({ status: "200", message: "Profile completed successfully", token, isProfileCompleted: user.isProfileCompleted });
+
+    res.cookie("jwtoken", token, {
+      expires: new Date(Date.now() + 25892000000), // 30 days
+      httpOnly: true,
+      secure: true,
+      sameSite: 'none',
+      path: '/'
+    });
+
+    res.status(200).json({ status: "200", message: "Profile completed successfully", token, isProfileCompleted: true });
 
   } catch (error) {
     console.error(error);
