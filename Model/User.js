@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
     isAdmin: Boolean,
     profilePassword: String,
     isVerified: { type: Boolean, default: false }, // Email verified flag
+    isProfileCompleted : { type: Boolean, default: false },
     verificationToken: { type: String, default: null }, // Store verification token
     tokenExpiresAt: { type: Date, default: null }, // Expiry time for token
 
