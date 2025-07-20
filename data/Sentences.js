@@ -3,7 +3,7 @@
 module.exports = [
   {
     Heading: "Back in the day",
-    ImageUrl: "https://athleanx.com/wp-content/uploads/2015/06/how-to-build-the-best-complete-back-workout.jpg",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
     sentences: [
       "Hello, how are you?",
       "This is a translation test.",
@@ -15,7 +15,7 @@ module.exports = [
   },
   {
     Heading: "Gone are the days",
-    ImageUrl: "",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_2.png",
     sentences: [
       "Gone are the days, when you used to cheat others",
       "Gone are the days, when we used to play together",
@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     Heading: "Everyday Phrases",
-    ImageUrl : "https://cdn.shopify.com/s/files/1/0471/3332/7519/files/machine-pump-back-day-header_480x480.jpg",
+    ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_3.png",
     sentences: [
       "Understand or regret",
       "Everyone gets their time",
