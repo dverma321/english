@@ -14,14 +14,28 @@ module.exports = [
     ]
   },
   {
+    Heading: "Gone are the days",
+    ImageUrl: "",
+    sentences: [
+      "Gone are the days, when you used to cheat others",
+      "Gone are the days, when we used to play together",
+      "Gone are the days, when I use to teach my friends",
+      "Gone are the days, When we used to fight each other"
+    ]
+  },
+  {
     Heading: "Everyday Phrases",
     ImageUrl : "https://cdn.shopify.com/s/files/1/0471/3332/7519/files/machine-pump-back-day-header_480x480.jpg",
     sentences: [
-      "What's up?",
-      "See you soon!",
-      "Take care.",
-      "Good job!",
-      "Have a nice weekend!"
+      "Understand or regret",
+      "Everyone gets their time",
+      "As you sow, so shall you reap",
+      "Don't act too smart",
+      "Give respect, take respect",
+      "What goes around, comes around",
+      "Whatever happens, happens for the best",
+      "Truth always triumphs",
+      "Hardwork pays off"
     ]
   },
   {
@@ -29,8 +43,10 @@ module.exports = [
     sentences: [
       "Never give up.",
       "Believe in yourself.",
-      "Every day is a second chance.",
-      "Push harder than yesterday if you want a different tomorrow."
+      "Go After eating food",
+      "Push harder than yesterday if you want a different tomorrow.",
+      "Go After meeting me",
+      "Go After wearing helmet",
     ]
   },
 
