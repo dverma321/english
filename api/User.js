@@ -194,19 +194,25 @@ async function incrementFailedAttempts(ipAddress, attempt) {
 
 router.post('/logout', async (req, res) => {
   try {
-    // Get token from cookie
-    const token = req.cookies.jwtoken;
+    // 1. Try getting token from cookie
+    let token = req.cookies.jwtoken;
+
+    // 2. Fallback to Authorization header if not in cookie
+    if (!token && req.headers.authorization?.startsWith('Bearer ')) {
+      token = req.headers.authorization.split(' ')[1];
+    }
+
     if (!token) {
       return res.status(401).json({ status: "FAILED", message: "No token found." });
     }
 
-    // Verify and decode the token
+    // Verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-    // Remove all stored tokens for this user (logout from all devices)
-    const updateResult = await UserModel.findByIdAndUpdate(decoded._id, { $set: { tokens: [] } });
+    // Remove all tokens for the user
+    await UserModel.findByIdAndUpdate(decoded._id, { $set: { tokens: [] } });
 
-    // Clear the cookie on the client side
+    // Clear the cookie just in case
     res.clearCookie('jwtoken', {
       path: '/',
       httpOnly: true,
@@ -224,6 +230,7 @@ router.post('/logout', async (req, res) => {
     res.status(500).json({ status: "FAILED", message: "Logout failed." });
   }
 });
+
 
 // getData route  
 
