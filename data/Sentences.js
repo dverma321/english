@@ -2,6 +2,38 @@
 
 module.exports = [
   {
+    Heading: "Date : 22-07-2025 Part-1",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [
+      "It's got dark",
+      "This is beyond my control.",
+      "I need to convince myself.",
+      "No more stress now.",
+      "I know you inside out."
+    ]
+  },
+  {
+    Heading: "Date : 22-07-2025 Part-2",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [
+      "Don't get into his words.",
+      "I got into his words.",
+      "I lied due to fear.",
+      "I am not used to it."
+    ]
+  },
+    {
+    Heading: "Date : 22-07-2025 Part-3",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [
+      "comb your hair",
+      "Turn off the tap",
+      "Don't be stubborn",
+      "Put on the shoes",
+      "Bask in the sun"
+    ]
+  },
+  {
     Heading: "Back in the day",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
     sentences: [
