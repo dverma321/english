@@ -1,5 +1,5 @@
 
-const vocabSynonyms = [
+module.exports = [
   {
     word: "Put off",
     synonyms: ["Avoid", "Delay", "Postpone", "Defer"]
