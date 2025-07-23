@@ -1,19 +1,31 @@
 // data/Sentences.js
 
 module.exports = [
+   {
+    Heading: "Would that and pomp and show",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "would that you were mine",
+      "would that this were a dream",
+      "would that I were rich",
+      "would that this were an illusion !",
+      "I want to marry with pomp and show",
+      "He was welcomed with great pomp and show"
+    ]
+  },
   {
-    Heading: "Date : 22-07-2025 Part-1",
+    Heading: "Regular Expression Part-1",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
     sentences: [
       "It's got dark",
       "This is beyond my control.",
       "I need to convince myself.",
       "No more stress now.",
-      "I know you inside out."
+      "I know you inside out.",     
     ]
   },
   {
-    Heading: "Date : 22-07-2025 Part-2",
+    Heading: "Regular Expression Part-2",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
     sentences: [
       "Don't get into his words.",
@@ -23,7 +35,7 @@ module.exports = [
     ]
   },
     {
-    Heading: "Date : 22-07-2025 Part-3",
+    Heading: "Regular Expression Part-3",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
     sentences: [
       "comb your hair",
