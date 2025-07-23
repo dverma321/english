@@ -48,10 +48,7 @@ module.exports = [
   {
     Heading: "Back in the day",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
-    sentences: [
-      "Hello, how are you?",
-      "This is a translation test.",
-      "React is awesome!",
+    sentences: [     
       "Have a great day!",
       "Back in the day, people used to be honest.",
       "Back in the day, we ruled this city."
@@ -68,7 +65,7 @@ module.exports = [
     ]
   },
   {
-    Heading: "Everyday Phrases",
+    Heading: "Regular Expression Part-4",
     ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_3.png",
     sentences: [
       "Understand or regret",
