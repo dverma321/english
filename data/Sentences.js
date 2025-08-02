@@ -1,4 +1,4 @@
-T// data/Sentences.js
+// data/Sentences.js
 
 module.exports = [
     {
