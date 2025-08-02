@@ -1,5 +1,3 @@
-// data/Sentences.js
-
 module.exports = [
     {
     Heading: "Time Flies",    
