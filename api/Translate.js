@@ -4,6 +4,8 @@ const sentencesArray = require('../data/Sentences.js');
 const translateText = require('../Utils/TranslateText.js');
 const authenticate = require("../Middleware/authenticate");
 const Translation = require('../Model/TranslateModel.js');
+const vocabSynonyms = require("../data/vocab.js");
+
 
 // Function to remove duplicate sentences
 const removeDuplicates = (arr) => {
@@ -69,8 +71,6 @@ router.post('/sentences', async (req, res) => {
         res.status(500).json({ error: "Failed to load sentences." });
     }
 });
-
-
 
 // ✅ Modified Route to update a translation (admin input only for Hindi)
 
@@ -177,6 +177,26 @@ router.get('/sentences/all/images', async (req, res) => {
         console.error("Error loading sentences:", err.message);
         res.status(500).json({ error: "Failed to load sentences." });
     }
+});
+
+// vocab list
+
+router.get("/vocab", (req, res) => {
+  const page = parseInt(req.query.page) || 1;
+  const limit = parseInt(req.query.limit) || 10;
+
+  const startIndex = (page - 1) * limit;
+  const endIndex = startIndex + limit;
+
+  const paginatedData = vocabSynonyms.slice(startIndex, endIndex);
+
+  res.json({
+    success: true,
+    data: paginatedData,
+    total: vocabSynonyms.length,
+    currentPage: page,
+    totalPages: Math.ceil(vocabSynonyms.length / limit),
+  });
 });
 
 
