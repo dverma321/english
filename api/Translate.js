@@ -14,63 +14,100 @@ const removeDuplicates = (arr) => {
 
 // Route to fetch paginated and translated sentences automatically except hindi one
 
-router.post('/sentences', async (req, res) => {
-    const { clientLang = 'en', page = 1 } = req.body;
-    const groupsPerPage = 1; // show how many group i.e array you want to show on screen
+// Utility: delay function
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-    try {
-        // 1. Filter valid groups
-        const validGroups = sentencesArray.filter(group => group.Heading);
+// Utility: chunk array into smaller arrays
+function chunkArray(array, size) {
+  const result = [];
+  for (let i = 0; i < array.length; i += size) {
+    result.push(array.slice(i, i + size));
+  }
+  return result;
+}
 
-        const totalPages = Math.ceil(validGroups.length / groupsPerPage);
-        const startIdx = (page - 1) * groupsPerPage;
-        const endIdx = page * groupsPerPage;
-        const paginatedGroups = validGroups.slice(startIdx, endIdx);
-
-        // 2. Flatten all sentences from paginated groups
-        const allSentences = paginatedGroups.flatMap(group => group.sentences);
-
-        // 3. Remove duplicates, ensure all are strings
-        const uniqueSentences = [...new Set(allSentences.map(s => String(s)))];
-
-        // 4. Fetch Hindi translations from DB
-        const translations = await Translation.find({ original: { $in: uniqueSentences } }).lean();
-        const hindiMap = {};
-        translations.forEach(doc => {
-            hindiMap[doc.original] = doc.hindi?.value || "";
-        });
-
-        // 5. Translate to clientLang
-        const clientTranslations = await translateText(uniqueSentences, clientLang);
-        const clientLangMap = {};
-        uniqueSentences.forEach((sentence, idx) => {
-            clientLangMap[sentence] = clientTranslations[idx];
-        });
-
-        // 6. Build final structured response
-        const finalData = paginatedGroups.map(group => {
-            const heading = group.Heading;
-            const ImageUrl = group.ImageUrl;
-            const translations = group.sentences.map(sentence => ({
-                original: sentence,
-                hindi: hindiMap[sentence] || "",
-                clientLang: clientLangMap[sentence] || ""
-            }));
-            return { heading, ImageUrl, translations };
-        });
-
-        res.json({
-            dateTitle: `Learning Daily Use Sentences - ${new Date().toLocaleDateString()}`,
-            currentPage: page,
-            totalPages,
-            data: finalData
-        });
-
-    } catch (err) {
-        console.error("Translation error:", err.message);
-        res.status(500).json({ error: "Failed to load sentences." });
+// Retry wrapper for translateText with exponential backoff
+async function retryTranslate(sentences, clientLang, retries = 3) {
+  try {
+    return await translateText(sentences, clientLang);
+  } catch (err) {
+    if (err.message.includes("Too Many Requests") && retries > 0) {
+      const waitTime = 1000 * (4 - retries); // 1s, 2s, 3s delay increasing
+      console.warn(`Rate limit hit, retrying after ${waitTime} ms...`);
+      await delay(waitTime);
+      return retryTranslate(sentences, clientLang, retries - 1);
     }
+    throw err;
+  }
+}
+
+router.post('/sentences', async (req, res) => {
+  const { clientLang = 'en', page = 1 } = req.body;
+  const groupsPerPage = 1; // how many groups per page
+  const chunkSize = 10;    // how many sentences per translation batch
+
+  try {
+    // 1. Filter valid groups
+    const validGroups = sentencesArray.filter(group => group.Heading);
+
+    const totalPages = Math.ceil(validGroups.length / groupsPerPage);
+    const startIdx = (page - 1) * groupsPerPage;
+    const endIdx = page * groupsPerPage;
+    const paginatedGroups = validGroups.slice(startIdx, endIdx);
+
+    // 2. Flatten all sentences from paginated groups
+    const allSentences = paginatedGroups.flatMap(group => group.sentences);
+
+    // 3. Remove duplicates, ensure all are strings
+    const uniqueSentences = [...new Set(allSentences.map(s => String(s)))];
+
+    // 4. Fetch Hindi translations from DB
+    const translations = await Translation.find({ original: { $in: uniqueSentences } }).lean();
+    const hindiMap = {};
+    translations.forEach(doc => {
+      hindiMap[doc.original] = doc.hindi?.value || "";
+    });
+
+    // 5. Translate to clientLang in batches with retry & delay
+    const sentenceChunks = chunkArray(uniqueSentences, chunkSize);
+    let clientTranslations = [];
+
+    for (const chunk of sentenceChunks) {
+      const translatedChunk = await retryTranslate(chunk, clientLang);
+      clientTranslations = clientTranslations.concat(translatedChunk);
+      await delay(500); // wait 500ms between chunks to avoid throttling
+    }
+
+    const clientLangMap = {};
+    uniqueSentences.forEach((sentence, idx) => {
+      clientLangMap[sentence] = clientTranslations[idx];
+    });
+
+    // 6. Build final structured response
+    const finalData = paginatedGroups.map(group => {
+      const heading = group.Heading;
+      const ImageUrl = group.ImageUrl;
+      const translations = group.sentences.map(sentence => ({
+        original: sentence,
+        hindi: hindiMap[sentence] || "",
+        clientLang: clientLangMap[sentence] || ""
+      }));
+      return { heading, ImageUrl, translations };
+    });
+
+    res.json({
+      dateTitle: `Learning Daily Use Sentences - ${new Date().toLocaleDateString()}`,
+      currentPage: page,
+      totalPages,
+      data: finalData
+    });
+
+  } catch (err) {
+    console.error("Translation error:", err.message);
+    res.status(500).json({ error: "Failed to load sentences." });
+  }
 });
+
 
 // ✅ Modified Route to update a translation (admin input only for Hindi)
 
