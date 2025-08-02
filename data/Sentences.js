@@ -1,6 +1,31 @@
-// data/Sentences.js
+T// data/Sentences.js
 
 module.exports = [
+    {
+    Heading: "Time Flies",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "Time Flies while Talking to you",
+      "Time Flies while sleeping",
+      "Time Flies while scrolling the reels",
+      "Time Flies while watching TV",
+      "I reluctantly agreed"
+    ]
+  },
+     {
+    Heading: "Forbidden",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "It is forbidden to spit here",
+      "It is forbidden to stand here",
+      "Abusing is forbidden",
+      "Making noise is forbidden",
+      "Going there is forbidden",
+      "There is no remorse in her eyes",
+      "This melodrama won't work with me"
+    ]
+  },
+   
    {
     Heading: "Would that and pomp and show",    
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
@@ -13,6 +38,7 @@ module.exports = [
       "He was welcomed with great pomp and show"
     ]
   },
+   
   {
     Heading: "Regular Expression Part-1",
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
