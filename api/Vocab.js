@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const sentencesArray = require('../data/Vocab.js');
+const sentencesArray = require('../data/vocab.js');
 const translateText = require('../Utils/TranslateText.js');
 const authenticate = require("../Middleware/authenticate");
 
@@ -8,6 +8,7 @@ const authenticate = require("../Middleware/authenticate");
 router.get("/get-all-vocabs", (req, res) => {
   res.status(200).json(sentencesArray);
 });
+
 
 
 module.exports = router;
