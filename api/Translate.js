@@ -14,10 +14,9 @@ const removeDuplicates = (arr) => {
 
 router.post('/sentences', async (req, res) => {
     const { clientLang = 'en', page = 1 } = req.body;
-    const groupsPerPage = 1; // show how many group i.e array you want to show on screen
+    const groupsPerPage = 1;
 
     try {
-        // 1. Filter valid groups
         const validGroups = sentencesArray.filter(group => group.Heading);
 
         const totalPages = Math.ceil(validGroups.length / groupsPerPage);
@@ -25,27 +24,21 @@ router.post('/sentences', async (req, res) => {
         const endIdx = page * groupsPerPage;
         const paginatedGroups = validGroups.slice(startIdx, endIdx);
 
-        // 2. Flatten all sentences from paginated groups
         const allSentences = paginatedGroups.flatMap(group => group.sentences);
-
-        // 3. Remove duplicates, ensure all are strings
         const uniqueSentences = [...new Set(allSentences.map(s => String(s)))];
 
-        // 4. Fetch Hindi translations from DB
+        // Only DB lookup — no external API
         const translations = await Translation.find({ original: { $in: uniqueSentences } }).lean();
+
         const hindiMap = {};
+        const clientLangMap = {};
+
         translations.forEach(doc => {
             hindiMap[doc.original] = doc.hindi?.value || "";
+            const clientTranslation = doc.clientLang?.[clientLang]?.approved || "";
+            clientLangMap[doc.original] = clientTranslation;
         });
 
-        // 5. Translate to clientLang
-        const clientTranslations = await translateText(uniqueSentences, clientLang);
-        const clientLangMap = {};
-        uniqueSentences.forEach((sentence, idx) => {
-            clientLangMap[sentence] = clientTranslations[idx];
-        });
-
-        // 6. Build final structured response
         const finalData = paginatedGroups.map(group => {
             const heading = group.Heading;
             const ImageUrl = group.ImageUrl;
@@ -69,6 +62,7 @@ router.post('/sentences', async (req, res) => {
         res.status(500).json({ error: "Failed to load sentences." });
     }
 });
+
 
 // ✅ Modified Route to update a translation (admin input only for Hindi)
 
