@@ -1,4 +1,62 @@
 module.exports = [
+     {
+    Heading: "By dint of",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "He became a leader by dint of money",
+      "You won the match by dint of cheating",
+      "He became rich by dint of dishonesty",
+    
+    ]
+  },
+    {
+    Heading: "Among whom",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "There were many friends, amoung whom was I",
+      "There were people in the crowd, among whom he was too",
+      "There were many studens, among whom was Ram",
+      "There were many guest came, among whom one was a doctor",      
+    ]
+  },
+      {
+    Heading: "There is still time",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "There is still time, tell me the truth",
+      "There is still time, think",
+      "There is still time, to study",
+      "There is still time, don't tell a lie",
+      "There is still time, don't go there"
+    ]
+  },
+      {
+    Heading: "on this pretext",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "On this pretext, he entered the room",
+      "On this pretext, we will also have tea",
+      "On this pretext, I will see your home",      
+    ]
+  },
+      {
+    Heading: "Quietly",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "He was going quietly",
+      "Go grom here quietly",
+      "Can't you sit quietly",     
+    ]
+  },
+     {
+    Heading: "Say what anyone will",    
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    sentences: [     
+      "Say what anyone will, I don't care",
+      "Say what anyone will, I meet her",
+      "Say what anyone will, do your work",   
+    ]
+  },
     {
     Heading: "Time Flies",    
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
