@@ -1,7 +1,7 @@
 module.exports = [
      {
     Heading: "By dint of",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
     sentences: [     
       "He became a leader by dint of money",
       "You won the match by dint of cheating",
@@ -11,7 +11,7 @@ module.exports = [
   },
     {
     Heading: "Among whom",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
     sentences: [     
       "There were many friends, amoung whom was I",
       "There were people in the crowd, among whom he was too",
@@ -21,7 +21,7 @@ module.exports = [
   },
       {
     Heading: "There is still time",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
     sentences: [     
       "There is still time, tell me the truth",
       "There is still time, think",
@@ -32,7 +32,7 @@ module.exports = [
   },
       {
     Heading: "on this pretext",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
     sentences: [     
       "On this pretext, he entered the room",
       "On this pretext, we will also have tea",
@@ -41,7 +41,7 @@ module.exports = [
   },
       {
     Heading: "Quietly",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
     sentences: [     
       "He was going quietly",
       "Go grom here quietly",
@@ -50,7 +50,7 @@ module.exports = [
   },
      {
     Heading: "Say what anyone will",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_5.png",
     sentences: [     
       "Say what anyone will, I don't care",
       "Say what anyone will, I meet her",
@@ -59,7 +59,7 @@ module.exports = [
   },
     {
     Heading: "Time Flies",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_4.png",
     sentences: [     
       "Time Flies while Talking to you",
       "Time Flies while sleeping",
@@ -70,7 +70,7 @@ module.exports = [
   },
      {
     Heading: "Forbidden",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_3.png",
     sentences: [     
       "It is forbidden to spit here",
       "It is forbidden to stand here",
@@ -84,7 +84,7 @@ module.exports = [
    
    {
     Heading: "Would that and pomp and show",    
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_2.png",
     sentences: [     
       "would that you were mine",
       "would that this were a dream",
@@ -108,7 +108,7 @@ module.exports = [
   },
   {
     Heading: "Regular Expression Part-2",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
     sentences: [
       "Don't get into his words.",
       "I got into his words.",
@@ -118,7 +118,7 @@ module.exports = [
   },
     {
     Heading: "Regular Expression Part-3",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
     sentences: [
       "comb your hair",
       "Turn off the tap",
@@ -129,7 +129,7 @@ module.exports = [
   },
   {
     Heading: "Back in the day",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_1.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
     sentences: [     
       "Have a great day!",
       "Back in the day, people used to be honest.",
@@ -138,7 +138,7 @@ module.exports = [
   },
   {
     Heading: "Gone are the days",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_2.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
     sentences: [
       "Gone are the days, when you used to cheat others",
       "Gone are the days, when we used to play together",
@@ -148,7 +148,7 @@ module.exports = [
   },
   {
     Heading: "Regular Expression Part-4",
-    ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_3.png",
+    ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
     sentences: [
       "Understand or regret",
       "Everyone gets their time",
@@ -162,7 +162,8 @@ module.exports = [
     ]
   },
   {
-    Heading: "Motivational Quotes",
+    Heading: "Motivational Quotes",       
+    ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_5.png",
     sentences: [
       "Never give up.",
       "Believe in yourself.",
@@ -174,7 +175,8 @@ module.exports = [
   },
 
   {
-    Heading: "Daily Routine",
+    Heading: "Daily Routine",       
+    ImageUrl : "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_4.png",
     sentences: [
       "I brush my teeth before I take a shower.",
       "She drinks coffee after she wakes up.",
