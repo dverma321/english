@@ -1,14 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const sentencesArray = require('../data/Sentences.js');
-const translateText = require('../Utils/TranslateText.js');
 const authenticate = require("../Middleware/authenticate");
 const Translation = require('../Model/TranslateModel.js');
+const VocabTranslation = require('../Model/VocabModel.js');
 
-// Function to remove duplicate sentences
-const removeDuplicates = (arr) => {
-    return [...new Set(arr)];
-};
 
 // Route to fetch paginated and translated sentences automatically except hindi one
 
@@ -24,10 +20,10 @@ router.post('/sentences', async (req, res) => {
         const endIdx = page * groupsPerPage;
         const paginatedGroups = validGroups.slice(startIdx, endIdx);
 
+        // Sentences Hindi translations
         const allSentences = paginatedGroups.flatMap(group => group.sentences);
-        const uniqueSentences = [...new Set(allSentences.map(s => String(s)))];
+        const uniqueSentences = [...new Set(allSentences)];
 
-        // Only DB lookup — no external API
         const translations = await Translation.find({ original: { $in: uniqueSentences } }).lean();
 
         const hindiMap = {};
@@ -39,15 +35,30 @@ router.post('/sentences', async (req, res) => {
             clientLangMap[doc.original] = clientTranslation;
         });
 
+        // Vocab Hindi translations
+        const allVocabWords = paginatedGroups.flatMap(group => group.vocab?.map(v => v.word) || []);
+        const vocabTranslations = await VocabTranslation.find({ word: { $in: allVocabWords } }).lean();
+        const vocabHindiMap = {};
+        vocabTranslations.forEach(v => {
+            vocabHindiMap[v.word] = v.hindi || "";
+        });
+
         const finalData = paginatedGroups.map(group => {
             const heading = group.Heading;
             const ImageUrl = group.ImageUrl;
-            const translations = group.sentences.map(sentence => ({
+
+            const translationsData = group.sentences.map(sentence => ({
                 original: sentence,
                 hindi: hindiMap[sentence] || "",
                 clientLang: clientLangMap[sentence] || ""
             }));
-            return { heading, ImageUrl, translations };
+
+            const vocabData = (group.vocab || []).map(v => ({
+                ...v,
+                hindi: vocabHindiMap[v.word] || ""
+            }));
+
+            return { heading, ImageUrl, translations: translationsData, vocab: vocabData };
         });
 
         res.json({
@@ -88,88 +99,52 @@ router.post('/update-translation', authenticate, async (req, res) => {
     }
 });
 
-// ✅ Modified Route to submit a suggestion (Hindi not allowed)
-router.post('/suggest-translation', authenticate, async (req, res) => {
-    const { original, lang, suggestion, user } = req.body;
-
-    if (lang === 'hi') {
-        return res.status(400).json({ error: 'Suggestions for Hindi are not allowed. Hindi is admin-managed only.' });
-    }
-
-    const field = `clientLang.${lang}.suggestions`;
-
-    try {
-        await Translation.updateOne(
-            { original },
-            { $push: { [field]: { value: suggestion, suggestedBy: user } } },
-            { upsert: true }
-        );
-
-        res.json({ message: 'Suggestion submitted for review' });
-    } catch (err) {
-        res.status(500).json({ error: 'Suggestion failed' });
-    }
+// ✅ GET all sentences
+router.get("/all-sentence-data", (req, res) => {
+  res.json(sentencesArray);
 });
 
-// all data
 
-router.get('/sentences/all', async (req, res) => {
-    const { page = 1 } = req.query;
-    const groupsPerPage = 10; // Show 10 groups per page
+// Get data by heading (with translations only, no vocab)
+router.get("/sentences/:heading", async (req, res) => {
+  try {
+    const headingParam = decodeURIComponent(req.params.heading).toLowerCase();
 
-    try {
-        // Filter valid groups with headings
-        const validGroups = sentencesArray.filter(group => group.Heading);
+    const group = sentencesArray.find(
+      (item) => item.Heading.toLowerCase() === headingParam
+    );
 
-        // Pagination logic
-        const totalPages = Math.ceil(validGroups.length / groupsPerPage);
-        const startIdx = (page - 1) * groupsPerPage;
-        const endIdx = page * groupsPerPage;
-        const paginatedGroups = validGroups.slice(startIdx, endIdx);
-
-        // Return paginated groups directly
-        res.json({
-            dateTitle: `Daily Sentences - ${new Date().toLocaleDateString()}`,
-            currentPage: page,
-            totalPages,
-            data: paginatedGroups
-        });
-
-    } catch (err) {
-        console.error("Error loading sentences:", err.message);
-        res.status(500).json({ error: "Failed to load sentences." });
+    if (!group) {
+      return res.status(404).json({ message: "Heading not found" });
     }
+
+    // Collect sentences + fetch translations
+    const allSentences = group.sentences;
+    const translations = await Translation.find({ original: { $in: allSentences } }).lean();
+
+    const hindiMap = {};
+    translations.forEach(doc => {
+      hindiMap[doc.original] = doc.hindi?.value || "";
+    });
+
+    // Build response in same shape as /sentences
+    const finalGroup = {
+      heading: group.Heading,
+      ImageUrl: group.ImageUrl,
+      translations: group.sentences.map(sentence => ({
+        original: sentence,
+        hindi: hindiMap[sentence] || ""
+      }))
+    };
+
+    res.json(finalGroup);
+
+  } catch (err) {
+    console.error("Error fetching heading:", err.message);
+    res.status(500).json({ error: "Failed to load heading data." });
+  }
 });
 
-// handling images in the table only
-
-router.get('/sentences/all/images', async (req, res) => {
-    const { page = 1 } = req.query;
-    const groupsPerPage = 1; // Show 1 groups per page
-
-    try {
-        // Filter valid groups with headings
-        const validGroups = sentencesArray.filter(group => group.Heading);
-
-        // Pagination logic
-        const totalPages = Math.ceil(validGroups.length / groupsPerPage);
-        const startIdx = (page - 1) * groupsPerPage;
-        const endIdx = page * groupsPerPage;
-        const paginatedGroups = validGroups.slice(startIdx, endIdx);
-
-        // Return paginated groups directly
-        res.json({
-            dateTitle: `Daily Sentences - ${new Date().toLocaleDateString()}`,
-            currentPage: page,
-            totalPages,
-            data: paginatedGroups
-        });
-
-    } catch (err) {
-        console.error("Error loading sentences:", err.message);
-        res.status(500).json({ error: "Failed to load sentences." });
-    }
-});
 
 
 module.exports = router;
