@@ -1,5 +1,55 @@
 module.exports = [
   {
+    "word": "Evil eye",
+    "synonyms": ["curse", "hex", "jinx", "malocchio", "bad luck"],
+    "antonyms": ["blessing", "benediction", "good fortune", "luck", "protection"]
+  },
+  {
+    "word": "Sacrament",
+    "synonyms": ["rite", "ritual", "ordinance", "ceremony", "holy act"],
+    "antonyms": ["sin", "blasphemy", "desecration", "profanity", "impiety"]
+  },
+  {
+    "word": "Hubris",
+    "synonyms": ["arrogance", "conceit", "pride", "vanity", "overconfidence"],
+    "antonyms": ["humility", "modesty", "meekness", "respect", "submissiveness"]
+  },
+  {
+    "word": "Erudite",
+    "synonyms": ["learned", "knowledgeable", "scholarly", "well-read", "intellectual"],
+    "antonyms": ["ignorant", "uneducated", "illiterate", "uninformed", "dull"]
+  },
+  {
+    "word": "Amulet",
+    "synonyms": ["talisman", "charm", "lucky charm", "pendant", "protective object"],
+    "antonyms": ["curse", "jinx", "hex", "bane", "misfortune"]
+  },
+  {
+    "word": "Astray",
+    "synonyms": ["off course", "lost", "misguided", "wayward", "wandering"],
+    "antonyms": ["guided", "directed", "oriented", "focused", "on track"]
+  },
+  {
+    "word": "Oath",
+    "synonyms": ["pledge", "vow", "promise", "swear", "commitment"],
+    "antonyms": ["lie", "falsehood", "denial", "perjury", "betrayal"]
+  },
+  {
+    "word": "Provoke",
+    "synonyms": ["incite", "agitate", "inflame", "annoy", "stimulate"],
+    "antonyms": ["calm", "soothe", "appease", "pacify", "comfort"]
+  },
+  {
+    "word": "Penniless",
+    "synonyms": ["impoverished", "destitute", "poor", "broke", "needy"],
+    "antonyms": ["wealthy", "rich", "affluent", "prosperous", "well-off"]
+  },
+  {
+    "word": "Ideal",
+    "synonyms": ["perfect", "flawless", "optimal", "model", "exemplary"],
+    "antonyms": ["imperfect", "flawed", "faulty", "realistic", "inferior"]
+  },
+  {
     word: "Put off",
     synonyms: ["Avoid", "Delay", "Postpone", "Defer"],
     antonyms: ["Advance", "Expedite", "Hasten", "Accelerate"]
