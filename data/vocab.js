@@ -1,4 +1,99 @@
 module.exports = [
+  
+  {
+    "word": "Improvisation",
+    "synonyms": ["extempore", "spontaneity", "ad-lib", "invention", "creativity"],
+    "antonyms": ["preparation", "planning", "forethought", "design", "arrangement"],
+    "pronounciation": "bEizksokbts'ku"
+  },
+  {
+    "word": "Punk",
+    "synonyms": ["ruffian", "hooligan", "rowdy", "delinquent", "thug"],
+    "antonyms": ["gentleman", "nobleman", "saint", "gentle", "cultured"],
+    "pronounciation": "iad"
+  },
+  {
+    "word": "Perfidious",
+    "synonyms": ["treacherous", "disloyal", "faithless", "false", "betraying"],
+    "antonyms": ["loyal", "faithful", "true", "reliable", "trustworthy"],
+    "pronounciation": "ijfQfM;l"
+  },
+  {
+    "word": "Betrayer",
+    "synonyms": ["traitor", "deceiver", "double-crosser", "cheat", "turncoat"],
+    "antonyms": ["loyalist", "ally", "supporter", "faithful", "friend"],
+    "pronounciation": "fcVªs;Z"
+  },
+  {
+    "word": "Miser",
+    "synonyms": ["penny-pincher", "niggard", "hoarder", "skinflint", "tightwad"],
+    "antonyms": ["spender", "philanthropist", "generous", "altruist", "donor"],
+    "pronounciation": "ekbtj"
+  },
+  {
+    "word": "Passion",
+    "synonyms": ["emotion", "desire", "zeal", "ardor", "devotion"],
+    "antonyms": ["apathy", "indifference", "disinterest", "coolness", "calmness"],
+    "pronounciation": "iS'ku"
+  },
+  {
+    "word": "Obsession",
+    "synonyms": ["fixation", "preoccupation", "compulsion", "mania", "addiction"],
+    "antonyms": ["freedom", "liberation", "unconcern", "detachment", "indifference"],
+    "pronounciation": "vkWclS'ku"
+  },
+  {
+    "word": "Adroit",
+    "synonyms": ["skillful", "clever", "dexterous", "expert", "adept"],
+    "antonyms": ["clumsy", "inept", "awkward", "incompetent", "unskillful"],
+    "pronounciation": ",MsM+kbt"
+  },
+  {
+    "word": "Sensitive",
+    "synonyms": ["delicate", "emotional", "touchy", "responsive", "vulnerable"],
+    "antonyms": ["insensitive", "unfeeling", "tough", "hard", "resistant"],
+    "pronounciation": "lsaflfVo"
+  },
+  {
+    "word": "Offence",
+    "synonyms": ["crime", "transgression", "violation", "sin", "wrongdoing"],
+    "antonyms": ["obedience", "compliance", "virtue", "duty", "lawfulness"],
+    "pronounciation": "vksQsal"
+  },
+  {
+    "word": "Mischievous",
+    "synonyms": ["naughty", "playful", "troublesome", "prankish", "roguish"],
+    "antonyms": ["obedient", "well-behaved", "innocent", "harmless", "gentle"],
+    "pronounciation": "felphol"
+  },
+  {
+    "word": "Cunning",
+    "synonyms": ["crafty", "sly", "wily", "tricky", "devious"],
+    "antonyms": ["honest", "naive", "straightforward", "open", "sincere"],
+    "pronounciation": "dfuax"
+  },
+  {
+    "word": "Outspoken",
+    "synonyms": ["frank", "blunt", "honest", "candid", "open"],
+    "antonyms": ["reserved", "secretive", "silent", "shy", "guarded"],
+    "pronounciation": "vkmVLiksdu"
+  },
+  {
+    "word": "on time",
+    "synonyms": ["punctual", "timely", "prompt", "exact", "scheduled"],
+    "antonyms": ["late", "delayed", "tardy", "behind schedule", "overdue"]
+  },
+  {
+    "word": "At that time",
+    "synonyms": ["then", "in those days", "at that moment", "at that point", "back then"],
+    "antonyms": ["now", "presently", "currently", "today", "at this moment"]
+  },
+
+  {
+    "word": "Evil eye",
+    "synonyms": ["curse", "hex", "jinx", "malocchio", "bad luck"],
+    "antonyms": ["blessing", "benediction", "good fortune", "luck", "protection"]
+  },
   {
     "word": "Evil eye",
     "synonyms": ["curse", "hex", "jinx", "malocchio", "bad luck"],
