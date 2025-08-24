@@ -28,15 +28,15 @@ const forgetpassword = require('./api/Forgot_Password.js');
 const contactus_route = require('./api/ContactUs.js');
 const LoginAttempt_route = require('./api/CheckLoginAttemptRoute.js');
 const lang_translate = require("./api/Translate.js");
-const vocabapi = require("./api/Vocab.js");
-
+const vocab_api = require("./api/Vocab.js");
 
 app.use('/user', userRouter);
 app.use('/forget', forgetpassword);
 app.use('/contact', contactus_route);
 app.use('/checklogin', LoginAttempt_route);
 app.use('/language', lang_translate);
-app.use('/vocab', vocabapi);
+app.use('/vocab', vocab_api);
+
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
