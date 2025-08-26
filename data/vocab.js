@@ -1,4 +1,30 @@
 module.exports = [
+
+  {
+  "word": "Skeptical",
+  "synonyms": ["doubtful", "suspicious", "unconvinced", "questioning", "dubious"],
+  "antonyms": ["convinced", "certain", "trusting", "believing", "confident"],
+  "pronounciation": "LdsfIVdsy"
+},
+{
+  "word": "Enthralled",
+  "synonyms": ["captivated", "fascinated", "charmed", "mesmerized", "entranced"],
+  "antonyms": ["bored", "disinterested", "unmoved", "apathetic", "indifferent"],
+  "pronounciation": "asUFkkySd"
+},
+{
+  "word": "Baffled",
+  "synonyms": ["puzzled", "confused", "bewildered", "perplexed", "stumped"],
+  "antonyms": ["clear", "understood", "enlightened", "aware", "comprehending"],
+  "pronounciation": "csQyM"
+},
+{
+  "word": "Flustered",
+  "synonyms": ["agitated", "upset", "confused", "rattled", "unnerved"],
+  "antonyms": ["calm", "composed", "collected", "unruffled", "serene"],
+  "pronounciation": "QyLVjSd"
+},
+
   
   {
     "word": "Improvisation",
