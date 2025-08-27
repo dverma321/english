@@ -1,5 +1,41 @@
 module.exports = [
 
+ {
+  "word": "Chop",
+  "synonyms": ["dice", "mince", "cut", "cube", "slice"],
+  "antonyms": ["join", "attach", "unite", "connect", "repair"],
+  "pronounciation": "pkWi"
+},
+{
+  "word": "Roast",
+  "synonyms": ["bake", "grill", "broil", "toast", "cook"],
+  "antonyms": ["raw", "uncooked", "freeze", "chill", "cool"],
+  "pronounciation": "jksLV"
+},
+{
+  "word": "Stir",
+  "synonyms": ["mix", "blend", "whisk", "agitate", "beat"],
+  "antonyms": ["still", "freeze", "settle", "stop", "rest"],
+  "pronounciation": "LVj"
+},
+{
+  "word": "Knead",
+  "synonyms": ["massage", "work", "mix", "blend", "press"],
+  "antonyms": ["ignore", "neglect", "separate", "divide", "disintegrate"],
+  "pronounciation": "uhM"
+},
+{
+  "word": "Pour",
+  "synonyms": ["decant", "stream", "flow", "spill", "transfer"],
+  "antonyms": ["block", "hold", "keep", "retain", "stop"],
+  "pronounciation": "iksj"
+},
+{
+  "word": "Garnish",
+  "synonyms": ["decorate", "adorn", "trim", "embellish", "ornament"],
+  "antonyms": ["strip", "simplify", "disfigure", "mar", "spoil"],
+  "pronounciation": "xkfuZ'k"
+},
  
 {
   "word": "Stale",
@@ -53,7 +89,7 @@ module.exports = [
   "word": "Imitate",
   "synonyms": ["copy", "mimic", "emulate", "simulate", "ape"],
   "antonyms": ["originate", "create", "innovate", "invent", "ignore"],
-  "pronounciation": "vfeVsV"
+  "pronounciation": "bfeVsV" 
 },
 
   {
@@ -66,7 +102,7 @@ module.exports = [
   "word": "Enthralled",
   "synonyms": ["captivated", "fascinated", "charmed", "mesmerized", "entranced"],
   "antonyms": ["bored", "disinterested", "unmoved", "apathetic", "indifferent"],
-  "pronounciation": ",aFkzKYM"
+  "pronounciation": "baFkkzYM"
 },
 {
   "word": "Baffled",
