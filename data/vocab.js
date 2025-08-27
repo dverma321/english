@@ -1,5 +1,61 @@
 module.exports = [
 
+ 
+{
+  "word": "Stale",
+  "synonyms": ["old", "hard", "dry", "musty", "flat"],
+  "antonyms": ["fresh", "soft", "new", "moist", "crisp"],
+  "pronounciation": "LVsy"
+},
+{
+  "word": "Rotten",
+  "synonyms": ["spoiled", "decayed", "bad", "putrid", "decomposed"],
+  "antonyms": ["fresh", "good", "unspoiled", "preserved", "pure"],
+  "pronounciation": "jkWVu"
+},
+{
+  "word": "Ripe",
+  "synonyms": ["mature", "ready", "adult", "developed", "aged"],
+  "antonyms": ["unripe", "immature", "green", "underdeveloped", "young"],
+  "pronounciation": "jkbi"
+},
+{
+  "word": "Unripe",
+  "synonyms": ["immature", "green", "underdeveloped", "young", "premature"],
+  "antonyms": ["ripe", "mature", "ready", "developed", "aged"],
+  "pronounciation": "vujkbi"
+},
+{
+  "word": "Crunchy",
+  "synonyms": ["crispy", "brittle", "crackly", "crumbly", "hard"],
+  "antonyms": ["soft", "mushy", "soggy", "limp", "tender"],
+  "pronounciation": "dzaph"
+},
+{
+  "word": "Bitter",
+  "synonyms": ["sour", "tart", "acrid", "harsh", "unpleasant"],
+  "antonyms": ["sweet", "mild", "pleasant", "delicious", "tasty"],
+  "pronounciation": "fcVj"
+},
+{
+  "word": "Interpret",
+  "synonyms": ["explain", "translate", "decode", "clarify", "define"],
+  "antonyms": ["confuse", "obscure", "misinterpret", "distort", "complicate"],
+  "pronounciation": "baVjizsV"
+},
+{
+  "word": "Determine",
+  "synonyms": ["decide", "conclude", "ascertain", "resolve", "settle"],
+  "antonyms": ["hesitate", "doubt", "waver", "guess", "question"],
+  "pronounciation": "fMVjekbu"
+},
+{
+  "word": "Imitate",
+  "synonyms": ["copy", "mimic", "emulate", "simulate", "ape"],
+  "antonyms": ["originate", "create", "innovate", "invent", "ignore"],
+  "pronounciation": "vfeVsV"
+},
+
   {
   "word": "Skeptical",
   "synonyms": ["doubtful", "suspicious", "unconvinced", "questioning", "dubious"],
