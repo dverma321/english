@@ -1,7 +1,7 @@
 module.exports = [
      {
   Heading: "Fed up",     
-  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_13.png",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_14.png",
   sentences: [     
     "I'm fed up with one type of food",
     "I get fed up with his greedy nature",
@@ -12,7 +12,7 @@ module.exports = [
 },
 {
 Heading: "underneath / below ",
-ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png", 
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_13.png", 
 sentences: [ 
 "The mobile is underneath the pilow",
 "My name is below your name in the list", 
@@ -23,7 +23,7 @@ sentences: [
 },
      {
   Heading: "Dowry system",     
-  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_12.png",
   sentences: [     
     "Dowry system is a social evil in our society",
     "Many families suffer because of the dowry system",
@@ -35,7 +35,7 @@ sentences: [
 
 {
   Heading: "Addicted to",     
-  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_12.png",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
   sentences: [     
     "He is addicted to playing video games",
     "Some people are addicted to smoking",
