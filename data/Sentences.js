@@ -1,5 +1,16 @@
 module.exports = [
      {
+  Heading: "Fed up",     
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_13.png",
+  sentences: [     
+    "I'm fed up with one type of food",
+    "I get fed up with his greedy nature",
+    "Sometimes I get fed up with this work",
+    "I am fed up with my wife",
+    "He was fed up with waiting for hours"
+  ]
+},
+{
 Heading: "underneath / below ",
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png", 
 sentences: [ 
