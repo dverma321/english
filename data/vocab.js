@@ -3,13 +3,13 @@ module.exports = [
   "word": "Sprinkle",
   "synonyms": ["scatter", "dust", "spread", "disperse", "strew"],
   "antonyms": ["collect", "gather", "accumulate", "amass", "heap"],
-  "pronounciation": "f=adlwy"
+  "pronounciation":"Lihudy"
 },
  {
   "word": "Flip",
   "synonyms": ["toss", "turn", "invert", "rotate", "switch"],
   "antonyms": ["hold", "keep", "maintain", "retain", "preserve"],
-  "pronounciation": "fyt"
+  "pronounciation": "fQYi"
 },
  {
   "word": "Chop",
