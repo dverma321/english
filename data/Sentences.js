@@ -1,5 +1,40 @@
 module.exports = [
      {
+Heading: "underneath / below ",
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png", 
+sentences: [ 
+"The mobile is underneath the pilow",
+"My name is below your name in the list", 
+"His mouth was below water but nose was above",
+"The magnitude of the earthquake is below 9 in Richter Scale" , 
+"My name is below Ram's" 
+] 
+},
+     {
+  Heading: "Dowry system",     
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+  sentences: [     
+    "Dowry system is a social evil in our society",
+    "Many families suffer because of the dowry system",
+    "The dowry system increases financial burden on parents",
+    "Government has made laws against the dowry system",
+    "We should work together to end the dowry system"
+  ]
+},
+
+{
+  Heading: "Addicted to",     
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_12.png",
+  sentences: [     
+    "He is addicted to playing video games",
+    "Some people are addicted to smoking",
+    "She is addicted to watching web series every night",
+    "I am addicted to coffee in the morning",
+    "Children are addicted to using mobile phones nowadays"
+  ]
+},
+
+     {
     Heading: "By dint of",    
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
     sentences: [     
