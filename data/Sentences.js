@@ -154,7 +154,7 @@ sentences: [
   },
   {
     Heading: "Regular Expression Part-2",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
     sentences: [
       "Don't get into his words.",
       "I got into his words.",
@@ -164,7 +164,7 @@ sentences: [
   },
     {
     Heading: "Regular Expression Part-3",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_16.png",
     sentences: [
       "comb your hair",
       "Turn off the tap",
@@ -175,7 +175,7 @@ sentences: [
   },
   {
     Heading: "Back in the day",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_17.png",
     sentences: [     
       "Have a great day!",
       "Back in the day, people used to be honest.",
@@ -184,7 +184,7 @@ sentences: [
   },
   {
     Heading: "Gone are the days",
-    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
+    ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_18.png",
     sentences: [
       "Gone are the days, when you used to cheat others",
       "Gone are the days, when we used to play together",
