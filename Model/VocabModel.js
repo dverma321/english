@@ -8,11 +8,27 @@ const wordSchema = new mongoose.Schema({
     unique: true,
     trim: true
   },
+
   hindiMeaning: {
     type: String,
     required: true,
     trim: true
   },
+
+   pronounciation: { 
+    type: String,
+    trim: true
+  },
+
+   synonyms: {
+    type: [String],
+    default: []
+  },
+  antonyms: {
+    type: [String],
+    default: []
+  },
+
   createdAt: {
     type: Date,
     default: Date.now
