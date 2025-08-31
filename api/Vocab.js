@@ -5,7 +5,7 @@ const wordList = require("../data/vocab.js");
 
 // ✅ Get all words with synonyms + antonyms + hindiMeaning (if exists in DB)
 
-router.get("/words", async (req, res) => {
+router.get("/words_old", async (req, res) => {
   try {
     const hindiMeanings = await Word.find(); // all saved Hindi meanings
     const merged = wordList.map((w) => {
@@ -22,28 +22,54 @@ router.get("/words", async (req, res) => {
   }
 });
 
-
-// ✅ Save or update Hindi meaning for a word
-router.post("/words/:word", async (req, res) => {
+router.get("/words", async (req, res) => {
   try {
-    const { hindiMeaning } = req.body;
-    const { word } = req.params;
+    const dbWords = await Word.find();
 
-    if (!hindiMeaning) {
-      return res.status(400).json({ error: "Hindi meaning is required" });
-    }
+    // Create a quick lookup object { word: { hindiMeaning, pronounciation } }
+    const dbMap = {};
+    dbWords.forEach((h) => {
+      dbMap[h.word] = {
+        hindiMeaning: h.hindiMeaning,
+        pronounciation: h.pronounciation
+      };
+    });
 
-    const updated = await Word.findOneAndUpdate(
-      { word },
-      { hindiMeaning },
-      { new: true, upsert: true } // create if doesn't exist
-    );
+    const merged = wordList.map((w) => ({
+      ...w,
+      hindiMeaning: dbMap[w.word]?.hindiMeaning || w.hindiMeaning || "",
+      pronounciation: dbMap[w.word]?.pronounciation || w.pronounciation || ""
+    }));
 
-    res.json({ message: "Hindi meaning saved", word: updated });
+    res.json(merged);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Failed to save meaning" });
+    res.status(500).json({ error: "Failed to fetch words" });
   }
 });
+
+// PUT or POST route to update word
+router.post("/words/:word", async (req, res) => {
+  try {
+    const { word } = req.params;
+    const updateData = req.body;  // can contain hindiMeaning, pronounciation, synonyms, antonyms
+
+    const updatedWord = await Word.findOneAndUpdate(
+      { word },
+      { $set: updateData },
+      { new: true, runValidators: true }
+    );
+
+    if (!updatedWord) {
+      return res.status(404).json({ error: "Word not found" });
+    }
+
+    res.json(updatedWord);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
 
 module.exports = router;
