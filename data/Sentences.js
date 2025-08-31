@@ -11,7 +11,7 @@ module.exports = [
   ]
 },
 {
-Heading: "underneath / below ",
+Heading: "underneath",
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_13.png", 
 sentences: [ 
 "The mobile is underneath the pilow",
