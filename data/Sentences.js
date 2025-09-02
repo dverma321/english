@@ -21,6 +21,34 @@ sentences: [
 "My name is below Ram's" 
 ] 
 },
+{
+  Heading: "Would that",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
+  sentences: [  
+    "Would that you were mine.",
+    "Would that this were a dream.",
+    "Would that this were an illusion."
+  ]
+},
+{
+  Heading: "This is not the way",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_14.png",
+  sentences: [  
+    "This is not the way to speak",
+    "This is not the way to do",
+    "This is not the way to write"
+  ]
+},
+{
+  Heading: "Verb-ing",
+  ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_13.png",
+  sentences: [  
+    "I am tired of thinking about her",
+    "I am tired of eating rice every day",
+    "I am tired of giving interviews",
+     "I am tired of making you understand"
+  ]
+},
      {
   Heading: "Dowry system",     
   ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_12.png",
