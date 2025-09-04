@@ -1,5 +1,48 @@
 module.exports = [
  {
+  "word": "Defamation",
+  "synonyms": ["slander", "libel", "vilification", "smear", "denigration"],
+  "antonyms": ["praise", "commendation", "approval", "flattery", "exaltation"],
+  "pronounciation": "M~TyUV" // डिफेमेशन → Di-fe-ma-शन
+},
+{
+  "word": "Intent",
+  "synonyms": ["purpose", "aim", "objective", "goal", "design"],
+  "antonyms": ["neglect", "disregard", "aimlessness", "inattention", "indifference"],
+  "pronounciation": "bfUMV" // इंटेंट → In-tent
+},
+{
+  "word": "Recognition",
+  "synonyms": ["acknowledgment", "acceptance", "appreciation", "approval", "honor"],
+  "antonyms": ["denial", "ignorance", "disregard", "neglect", "refusal"],
+  "pronounciation": "jsdkusf’ku" // रेकेग्निशन → Re-cog-ni-shan
+},
+{
+  "word": "Longing",
+  "synonyms": ["yearning", "desire", "craving", "hankering", "wistfulness"],
+  "antonyms": ["indifference", "apathy", "disinterest", "aversion", "contentment"],
+  "pronounciation": "yaxkWx" // लॉंगिंग → Long-ing
+},
+{
+  "word": "Conspiracy",
+  "synonyms": ["plot", "scheme", "collusion", "cabal", "intrigue"],
+  "antonyms": ["honesty", "openness", "truth", "sincerity", "transparency"],
+  "pronounciation": "dkulLfj;lkbZ" // कान्स्पिरेसी → Con-spi-ra-cy
+},
+{
+  "word": "Affection",
+  "synonyms": ["love", "fondness", "attachment", "devotion", "endearment"],
+  "antonyms": ["hatred", "dislike", "hostility", "indifference", "animosity"],
+  "pronounciation": "vQfod’ku" // अफेक्शन → Af-fec-shan
+},
+{
+  "word": "Liberty",
+  "synonyms": ["freedom", "independence", "autonomy", "emancipation", "rights"],
+  "antonyms": ["slavery", "captivity", "confinement", "restraint", "oppression"],
+  "pronounciation": "fyceVjh" // लिबर्टी → Li-ber-ty
+},
+
+ {
   "word": "Sprinkle",
   "synonyms": ["scatter", "dust", "spread", "disperse", "strew"],
   "antonyms": ["collect", "gather", "accumulate", "amass", "heap"],
