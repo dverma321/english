@@ -9,7 +9,7 @@ module.exports = [
   "word": "Sugar daddy",
   "synonyms": ["wealthy benefactor", "patron", "sponsor", "rich lover", "financial supporter"],
   "antonyms": ["dependent", "pauper", "poor man", "needy person", "destitute"],
-  "pronounciation": "'kqxMkj MsM+h" // शुगर डैडी → Sugar Daddy
+  "pronounciation": "'kqxj MSMh" // शुगर डैडी → Sugar Daddy
 },
 {
   "word": "Catfight",
