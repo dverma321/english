@@ -3,7 +3,7 @@ module.exports = [
   "word": "Fish wife",
   "synonyms": ["scolding woman", "shrew", "scold", "termagant", "virago"],
   "antonyms": ["lady", "gentlewoman", "noblewoman", "graceful woman", "dignified woman"],
-  "pronounciation": "f'kZokbQ" // फिशवाइफ → Fish-wife
+  "pronounciation": "f'kZ okbQ" // फिशवाइफ → Fish-wife
 },
 {
   "word": "Sugar daddy",
