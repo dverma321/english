@@ -48,7 +48,7 @@ router.get("/words", async (req, res) => {
   }
 });
 
-router.post("/words_new/:word", async (req, res) => {
+router.post("/words/:word", async (req, res) => {
   try {
     const { word } = req.params;
     const updateData = req.body;
@@ -73,7 +73,7 @@ router.post("/words_new/:word", async (req, res) => {
 
 
 // PUT or POST route to update word
-router.post("/words/:word", async (req, res) => {
+router.post("/words_old/:word", async (req, res) => {
   try {
     const { word } = req.params;
     const updateData = req.body;  // can contain hindiMeaning, pronounciation, synonyms, antonyms
@@ -98,6 +98,7 @@ router.post("/words/:word", async (req, res) => {
 
 
 module.exports = router;
+
 
 
 
