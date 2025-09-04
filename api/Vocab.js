@@ -48,21 +48,21 @@ router.get("/words", async (req, res) => {
   }
 });
 
-// PUT or POST route to update word
 router.post("/words/:word", async (req, res) => {
   try {
     const { word } = req.params;
-    const updateData = req.body;  // can contain hindiMeaning, pronounciation, synonyms, antonyms
+    const updateData = req.body;
+
+    // Ensure hindiMeaning exists to satisfy schema
+    if (!updateData.hindiMeaning) {
+      updateData.hindiMeaning = "";
+    }
 
     const updatedWord = await Word.findOneAndUpdate(
       { word },
       { $set: updateData },
-      { new: true, runValidators: true }
+      { new: true, upsert: true, runValidators: true }
     );
-
-    if (!updatedWord) {
-      return res.status(404).json({ error: "Word not found" });
-    }
 
     res.json(updatedWord);
   } catch (err) {
@@ -72,6 +72,8 @@ router.post("/words/:word", async (req, res) => {
 });
 
 
+
 module.exports = router;
+
 
 
