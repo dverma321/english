@@ -54,7 +54,7 @@ router.post("/words/:word", async (req, res) => {
     const { word } = req.params;
     const updateData = req.body;  // can contain hindiMeaning, pronounciation, synonyms, antonyms
 
-    const updatedWord = await wordList.findOneAndUpdate(
+    const updatedWord = await Word.findOneAndUpdate(
       { word },
       { $set: updateData },
       { new: true, runValidators: true }
@@ -73,4 +73,5 @@ router.post("/words/:word", async (req, res) => {
 
 
 module.exports = router;
+
 
