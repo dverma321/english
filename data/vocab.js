@@ -102,7 +102,6 @@ module.exports = [
   "antonyms": ["slavery", "captivity", "confinement", "restraint", "oppression"],
   "pronounciation": "fyceVjh" // लिबर्टी → Li-ber-ty
 },
-
  {
   "word": "Sprinkle",
   "synonyms": ["scatter", "dust", "spread", "disperse", "strew"],
