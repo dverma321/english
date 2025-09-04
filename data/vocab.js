@@ -1,5 +1,66 @@
 module.exports = [
  {
+  "word": "Fish wife",
+  "synonyms": ["scolding woman", "shrew", "scold", "termagant", "virago"],
+  "antonyms": ["lady", "gentlewoman", "noblewoman", "graceful woman", "dignified woman"],
+  "pronounciation": "f'kZokbQ" // फिशवाइफ → Fish-wife
+},
+{
+  "word": "Sugar daddy",
+  "synonyms": ["wealthy benefactor", "patron", "sponsor", "rich lover", "financial supporter"],
+  "antonyms": ["dependent", "pauper", "poor man", "needy person", "destitute"],
+  "pronounciation": "'kqxMkj MsM+h" // शुगर डैडी → Sugar Daddy
+},
+{
+  "word": "Catfight",
+  "synonyms": ["quarrel", "brawl", "clash", "scuffle", "altercation"],
+  "antonyms": ["peace", "agreement", "harmony", "accord", "truce"],
+  "pronounciation": "dSVQkbV" // कैटफाइट → Catfight
+},
+{
+  "word": "Goofy",
+  "synonyms": ["silly", "foolish", "clumsy", "ridiculous", "absurd"],
+  "antonyms": ["serious", "wise", "sensible", "intelligent", "clever"],
+  "pronounciation": "xwQh" // गूफी → Goofy
+},
+{
+  "word": "Unworthy",
+  "synonyms": ["undeserving", "dishonorable", "base", "ignoble", "inferior"],
+  "antonyms": ["worthy", "deserving", "honorable", "noble", "creditable"],
+  "pronounciation": "vUojFkh" // अनवर्दी → Unworthy
+},
+{
+  "word": "Peevish",
+  "synonyms": ["irritable", "cross", "testy", "petulant", "grumpy"],
+  "antonyms": ["pleasant", "agreeable", "cheerful", "patient", "good-natured"],
+  "pronounciation": "fthfo'k" // पीविश → Peevish
+},
+{
+  "word": "Notoriety",
+  "synonyms": ["infamy", "disrepute", "dishonor", "ill fame", "bad name"],
+  "antonyms": ["fame", "renown", "honor", "esteem", "good reputation"],
+  "pronounciation": "uksVksjs;Vh" // नोटोराइटी → Notoriety
+},
+{
+  "word": "Gold digger",
+  "synonyms": ["fortune hunter", "opportunist", "mercenary", "exploiter", "schemer"],
+  "antonyms": ["giver", "benefactor", "philanthropist", "selfless person", "altruist"],
+  "pronounciation": "xksyM fxyjx" // गोल्ड डिग्गर → Gold Digger
+},
+{
+  "word": "Mean",
+  "synonyms": ["unkind", "cruel", "malicious", "nasty", "spiteful"],
+  "antonyms": ["kind", "generous", "benevolent", "gentle", "compassionate"],
+  "pronounciation": "ehu" // मीन → Mean
+},
+{
+  "word": "Nagging",
+  "synonyms": ["complaining", "scolding", "pestering", "grumbling", "carping"],
+  "antonyms": ["comforting", "soothing", "encouraging", "helpful", "pleasant"],
+  "pronounciation": "uxsx" // नैगिंग → Nagging
+},
+
+ {
   "word": "Defamation",
   "synonyms": ["slander", "libel", "vilification", "smear", "denigration"],
   "antonyms": ["praise", "commendation", "approval", "flattery", "exaltation"],
