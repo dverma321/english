@@ -1,5 +1,27 @@
 module.exports = [
      {
+Heading: "My soon",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
+sentences: 
+     [     
+     "My soon to be father in law is a doctor",
+     "She is my soon to be wife",
+     "Her soon to be husband is an engineer",
+     "My soon to be daughter is very cute" 
+     ]
+},
+{
+Heading: "It's not that",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
+sentences: 
+     [     
+     "It's not that I am not interested in sports",
+     "It's not that he is not a good man",
+     "It's not that I get angry quickly",
+     "It's not that I am afraid of hard work" 
+     ]
+},
+{
   Heading: "Fed up",     
   ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_14.png",
   sentences: [     
@@ -408,7 +430,19 @@ sentences: [
       "She believed in herself although others doubted her.",
       "You’ll succeed when you stop giving up."
     ]
-  }
+  },
+{
+Heading: "Daily Conversation 49",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_14.png",
+sentences: 
+[     
+"We should avoid confrontation",
+"I know you inside out",
+"you always get in my way",
+"I'll set you straight in a snap" 
+]
+},
+
 
 
 ];
