@@ -1,4 +1,18 @@
 module.exports = [
+{
+Heading: "So be it",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
+sentences: 
+     [     
+     "if you don't want to help me, so be it",
+     "if he doesn't want to tell the truth, so be it",
+     "if you don't want to call me, so be it",
+     "if she doesn't want to go to school, so be it",
+     "if you don't want to understand me, so be it",
+     "if she doesn't like me, so be it"
+     ]
+},
+     
      {
 Heading: "My soon",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
