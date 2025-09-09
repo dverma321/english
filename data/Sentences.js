@@ -11,7 +11,18 @@ sentences:
      "if you don't want to understand me, so be it",
      "if she doesn't like me, so be it"
      ]
-},     
+},    
+{
+Heading: "Every now and then",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
+sentences: 
+     [     
+     "He praises me every now and then",
+     "He makes fun of me every now and then",
+     "He changes his phone every now and then", 
+     "He comes to my house every now and then"
+     ]
+},    
 {
 Heading: "My soon",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
