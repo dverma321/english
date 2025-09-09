@@ -11,9 +11,8 @@ sentences:
      "if you don't want to understand me, so be it",
      "if she doesn't like me, so be it"
      ]
-},
-     
-     {
+},     
+{
 Heading: "My soon",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
 sentences: 
