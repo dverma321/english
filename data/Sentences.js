@@ -22,7 +22,29 @@ sentences:
      "He changes his phone every now and then", 
      "He comes to my house every now and then"
      ]
-},    
+},   
+{
+Heading: "Do Ever",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
+sentences: 
+     [     
+     "Do ever call me",
+     "Do ever listen to me",
+     "Do ever talk politely", 
+     "Do ever come on time"
+     ]
+},     
+{
+Heading: "What to me or What to you",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
+sentences: 
+     [     
+     "What to me, let him speak",
+     "What to you, whoever I talk to",
+     "What to me, wherever he goes",
+     "What to you, whether I eat or not"
+     ]
+},
 {
 Heading: "My soon",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
