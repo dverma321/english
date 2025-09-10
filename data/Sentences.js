@@ -57,6 +57,32 @@ sentences:
      ]
 },
 {
+Heading: "Kitchen-1",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+sentences: 
+     [     
+     "Knead the dough",
+     "Peel the potatoes",
+     "Pestle the garlic",
+     "Grind the spices",
+     "Sift the flour",
+     "Strain the milk",
+     "Flip the Chapaties",
+     "Bake the Chapaties"
+     ]
+}, 
+{
+Heading: "It's good",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+sentences: 
+     [     
+     "It's good that you came",
+     "It's good to see you",
+     "It's good that weather is nice",
+     "It's good to have friends like you",    
+     ]
+}, 
+{
 Heading: "It's not that",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
 sentences: 
