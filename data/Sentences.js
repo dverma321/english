@@ -73,7 +73,7 @@ sentences:
 }, 
 {
 Heading: "It's good",      
-ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_12.png",
 sentences: 
      [     
      "It's good that you came",
