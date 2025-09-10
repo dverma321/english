@@ -2,6 +2,7 @@ module.exports = [
 {
 Heading: "So be it",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
 sentences: 
      [     
      "if you don't want to help me, so be it",
@@ -15,6 +16,7 @@ sentences:
 {
 Heading: "Every now and then",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen_1.mp4",
 sentences: 
      [     
      "He praises me every now and then",
@@ -26,6 +28,7 @@ sentences:
 {
 Heading: "Do Ever",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/cloudy_girl.mp4",
 sentences: 
      [     
      "Do ever call me",
@@ -37,6 +40,7 @@ sentences:
 {
 Heading: "What to me or What to you",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/rainy_stylish_girl_1.mp4",
 sentences: 
      [     
      "What to me, let him speak",
