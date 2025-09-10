@@ -46,6 +46,7 @@ router.post('/sentences', async (req, res) => {
         const finalData = paginatedGroups.map(group => {
             const heading = group.Heading;
             const ImageUrl = group.ImageUrl;
+            const VideoUrl = group.VideoUrl;
 
             const translationsData = group.sentences.map(sentence => ({
                 original: sentence,
@@ -58,7 +59,7 @@ router.post('/sentences', async (req, res) => {
                 hindi: vocabHindiMap[v.word] || ""
             }));
 
-            return { heading, ImageUrl, translations: translationsData, vocab: vocabData };
+            return { heading, ImageUrl, VideoUrl, translations: translationsData, vocab: vocabData };
         });
 
         res.json({
@@ -131,6 +132,7 @@ router.get("/sentences/:heading", async (req, res) => {
     const finalGroup = {
       heading: group.Heading,
       ImageUrl: group.ImageUrl,
+      VideoUrl : group.VideoUrl,
       translations: group.sentences.map(sentence => ({
         original: sentence,
         hindi: hindiMap[sentence] || ""
