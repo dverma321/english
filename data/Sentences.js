@@ -28,7 +28,7 @@ sentences:
 {
 Heading: "Do Ever",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/cloudy_girl.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
 sentences: 
      [     
      "Do ever call me",
