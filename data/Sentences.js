@@ -36,7 +36,68 @@ sentences:
      "Do ever talk politely", 
      "Do ever come on time"
      ]
-},     
+}, 
+
+{
+Heading: "Life and Love Sentences-1",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+sentences: 
+     [     
+     "Sometimes breaking is necessary to understand yourself",
+     "A prayer from the heart always finds a way",
+     "if love is true, even distance cannot weaken it",
+     "What doesn't fall from the heart, never falls from life",
+     "Happiness is an art you must learn.",
+     "Some stories look beautiful even when left incomplete.",
+     "What's gone taught you whom to trust",
+     "Life asks for smile, not complaints.",
+     "Learn to love yourself too",
+     "Smiling after heartbreak is true courage",
+     "Love is the one that's unconditional.",
+     "Love is not spoken, it's felt from the heart",
+     "Those who never give up, create history",
+     "Life is like a book, each day is a new page"
+     "Life teachs you something every day",
+     "The one who is determined, always wins",
+     "Forget what's gone, move forward",
+     "Being happy is the biggest win in life",
+     "Be yourself, because that's the true beauty of life"
+          
+     ]
+},  
+
+{
+Heading: "If this continues",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+sentences: 
+     [     
+     "If this continues, you will regret",
+     "If this continues, our friendship will break",
+     "If this continues, prices will rise more",
+     "If this continues, children will be spoiled",
+     "If this goes one, the house will be ruined"
+     ]
+},  
+     {
+Heading: "How often and From now on",      
+ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+sentences: 
+     [     
+     "How often do you take a bath",
+     "How often do you meet your friends",
+     "How often do you use social media",
+     "How often do you go to watch movies",
+     "From now on, don't be late",
+     "From now on, I will work harder",
+     "From now on, he will not complain",
+     "From now on, we will work together"
+     ]
+},  
+
+     
 {
 Heading: "What to me or What to you",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
