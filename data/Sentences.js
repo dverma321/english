@@ -57,7 +57,7 @@ sentences:
      "Love is the one that's unconditional.",
      "Love is not spoken, it's felt from the heart",
      "Those who never give up, create history",
-     "Life is like a book, each day is a new page"
+     "Life is like a book, each day is a new page",
      "Life teachs you something every day",
      "The one who is determined, always wins",
      "Forget what's gone, move forward",
@@ -80,7 +80,7 @@ sentences:
      "If this goes one, the house will be ruined"
      ]
 },  
-     {
+{
 Heading: "How often and From now on",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
 VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
