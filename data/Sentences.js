@@ -2,7 +2,7 @@ module.exports = [
 {
 Heading: "So be it",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "if you don't want to help me, so be it",
@@ -16,7 +16,7 @@ sentences:
 {
 Heading: "Every now and then",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen_1.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "He praises me every now and then",
@@ -28,7 +28,7 @@ sentences:
 {
 Heading: "Do Ever",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "Do ever call me",
@@ -41,7 +41,7 @@ sentences:
 {
 Heading: "Life and Love Sentences-1",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "Sometimes breaking is necessary to understand yourself",
@@ -70,7 +70,7 @@ sentences:
 {
 Heading: "If this continues",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "If this continues, you will regret",
@@ -83,7 +83,7 @@ sentences:
 {
 Heading: "How often and From now on",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_10.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/drift_queen.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "How often do you take a bath",
@@ -113,6 +113,7 @@ sentences:
 {
 Heading: "My soon",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
      [     
      "My soon to be father in law is a doctor",
@@ -124,6 +125,7 @@ sentences:
 {
 Heading: "Kitchen-1",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_11.png",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes_2.mp4",
 sentences: 
      [     
      "Knead the dough",
@@ -183,6 +185,7 @@ sentences: [
 {
   Heading: "Would that",
   ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_15.png",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
   sentences: [  
     "Would that you were mine.",
     "Would that this were a dream.",
