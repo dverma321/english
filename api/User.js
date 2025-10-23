@@ -411,6 +411,141 @@ router.post('/complete-profile', async (req, res) => {
   }
 });
 
+// old way registration without verify email
+
+router.post('/register', async (req, res) => {
+  try {
+    const { name, email, password } = req.body;
+
+    // Validation
+    if (!name || !email || !password) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'All fields are required'
+      });
+    }
+
+    // Email validation with popular domains
+    const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+    if (!emailRegex.test(email)) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Please enter a valid email address'
+      });
+    }
+
+    // Popular domain validation
+    const allowedDomains = [
+      'gmail.com', 
+      'yahoo.com', 
+      'qq.com', 
+      'tencent.com', 
+      'outlook.com', 
+      'hotmail.com', 
+      'icloud.com', 
+      'aol.com', 
+      'protonmail.com',
+      'mail.com',
+      'yandex.com',
+      'zoho.com',
+      'gmx.com'
+    ];
+    
+    const emailDomain = email.split('@')[1].toLowerCase();
+    if (!allowedDomains.includes(emailDomain)) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Only emails from popular domains are allowed (Gmail, Yahoo, QQ, Outlook, etc.)'
+      });
+    }
+
+    // Password length validation
+    if (password.length < 8) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Password must be at least 8 characters long'
+      });
+    }
+
+    // Strong password validation
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#])[A-Za-z\d@$!%*?&#]/;
+    if (!passwordRegex.test(password)) {
+      return res.status(400).json({
+        status: 'error',
+        message: 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character (@$!%*?&)'
+      });
+    }
+
+    // Check if user already exists
+    const existingUser = await UserModel.findOne({ email });
+    if (existingUser) {
+      return res.status(409).json({
+        status: 'error',
+        message: 'User already exists with this email'
+      });
+    }
+
+    // Hash password
+    const saltRounds = 12;
+    const hashedPassword = await bcrypt.hash(password, saltRounds);
+
+    // Create user
+    const user = new UserModel({
+      name: name.trim(),
+      email: email.toLowerCase().trim(),
+      password: hashedPassword,
+      isVerified: true,
+      isProfileCompleted: true
+    });
+
+    await user.save();
+
+    // Generate auth token if you have generateAuthToken method
+    let token = null;
+    if (typeof user.generateAuthToken === 'function') {
+      token = await user.generateAuthToken();
+    }
+
+    // Successful response
+    res.status(201).json({
+      status: 'success',
+      message: 'Registration successful! You can now login.',
+      user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        isVerified: user.isVerified,
+        isProfileCompleted: user.isProfileCompleted
+      },
+      ...(token && { token }) // Include token only if generated
+    });
+
+  } catch (error) {
+    console.error('Registration error:', error);
+    
+    // Handle duplicate key error (MongoDB)
+    if (error.code === 11000) {
+      return res.status(409).json({
+        status: 'error',
+        message: 'User already exists with this email'
+      });
+    }
+
+    // Handle validation errors
+    if (error.name === 'ValidationError') {
+      const errors = Object.values(error.errors).map(err => err.message);
+      return res.status(400).json({
+        status: 'error',
+        message: errors.join(', ')
+      });
+    }
+
+    res.status(500).json({
+      status: 'error',
+      message: 'Internal server error'
+    });
+  }
+});
 
 module.exports = router;
 
