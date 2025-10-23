@@ -2,7 +2,7 @@ module.exports = [
 {
 Heading: "So be it",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
 sentences: 
      [     
      "if you don't want to help me, so be it",
@@ -28,7 +28,7 @@ sentences:
 {
 Heading: "Do Ever",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_7.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
 sentences: 
      [     
      "Do ever call me",
@@ -70,7 +70,7 @@ sentences:
 {
 Heading: "If this continues",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
 sentences: 
      [     
      "If this continues, you will regret",
@@ -101,7 +101,7 @@ sentences:
 {
 Heading: "What to me or What to you",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
-VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/rainy_stylish_girl_1.mp4",
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
 sentences: 
      [     
      "What to me, let him speak",
