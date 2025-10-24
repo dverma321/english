@@ -1,5 +1,46 @@
 module.exports = [
+{
+Heading: "Wisdom and Mindset",      
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+sentences: 
+     [          
+  "Sometimes silence is the greatest answer",
+  "Don't stop just because of what people will say"     
+     ]
+},    
      {
+Heading: "In the course of time",      
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
+sentences:        
+[
+  "In the course of time, studies will seem easier",
+  "In the course of time, he will learn",
+  "In the course of time, patience will bear fruit",
+  "In the course of time, people will keep changing",
+  "In the course of time, relationships will improve",
+  "In the course of time, everything will be understood",
+  "Son, time waits for no one",
+  "The time once gone never comes back",
+  "The life of a time-waster is filled with regret",
+  "No one gets anything before time and beyond destiny",
+  "Live every day as if it is the last day",
+  "The one who values time is never empty-handed"
+]
+},    
+{
+Heading: "Hope and Positivity",      
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+sentences: 
+     [     
+  "Every darkness is followed by a sunrise",
+  "Your pain will become your identity, just don't stop",
+  "Troubles come when the goal is near",
+  "As long as there is breath, there is hope",
+  "The tears you shed today will become smiles tomorrow",
+  "Every wound is making you stronger"  
+     ]
+},    
+{
 Heading: "let others",      
 VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
 sentences: 
