@@ -1,4 +1,15 @@
 module.exports = [
+     {
+Heading: "let others",      
+VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+sentences: 
+     [     
+    "I will neither get up nor let others get up", 
+     "I will neither sleep nor let you sleep",
+     "I will neither study nor let others study",
+     "I will neither work nor let others work"    
+     ]
+},    
 {
 Heading: "So be it",      
 ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_9.png",
@@ -62,7 +73,11 @@ sentences:
      "The one who is determined, always wins",
      "Forget what's gone, move forward",
      "Being happy is the biggest win in life",
-     "Be yourself, because that's the true beauty of life"
+     "Be yourself, because that's the true beauty of life",
+     "you understand the value of victory only after losing",
+     "Never think you are weak; you have immense strength within you",
+     "Don't chase what's gone, believe in what's coming", 
+     "If the path is difficult, the destination will be beautiful"
           
      ]
 },  
