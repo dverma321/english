@@ -40,11 +40,11 @@ module.exports = [
   {
     Heading: "let others",      
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
-    sentences: [     
-      { original: "I will neither get up nor let others get up", hindi: "" }, 
-      { original: "I will neither sleep nor let you sleep", hindi: "" },
-      { original: "I will neither study nor let others study", hindi: "" },
-      { original: "I will neither work nor let others work", hindi: "" }    
+    sentences: [         
+  { original: "I will neither get up nor let others get up", hindi: "eSa u [kqn mBwaxk u nwljs dks mBuk nswaxkA" },
+  { original: "I will neither sleep nor let you sleep", hindi: "eSa u [kqn lkswaxk u rqEgsa lksus nswaxkA" },
+  { original: "I will neither study nor let others study", hindi: "eSa u [kqn i<waxk u nwljs dks i<+us nswaxkA" },
+  { original: "I will neither work nor let others work", hindi: "eSa u [kqn dke djwaxk u nwljs dks djus nswaxkA" }
     ]
   },    
   {
@@ -105,11 +105,13 @@ module.exports = [
       { original: "The one who is determined, always wins", hindi: "" },
       { original: "Forget what's gone, move forward", hindi: "" },
       { original: "Being happy is the biggest win in life", hindi: "" },
-      { original: "Be yourself, because that's the true beauty of life", hindi: "" },
-      { original: "you understand the value of victory only after losing", hindi: "" },
-      { original: "Never think you are weak; you have immense strength within you", hindi: "" },
-      { original: "Don't chase what's gone, believe in what's coming", hindi: "" }, 
-      { original: "If the path is difficult, the destination will be beautiful", hindi: "" }
+      { original: "Be yourself, because that's the true beauty of life", hindi: "" },  
+  { original: "you understand the value of victory only after losing", hindi: "gkjus ds ckn gh thV dk ewY; le> esa vkrk gSA" },
+  { original: "Never think you are weak; you have immense strength within you", hindi: "dHkh ;g u rksrs fd rqEgs deZor gks rqEgkjh Hkhr esa viwZj 'kfDr gSA" },
+  { original: "Don't chase what's gone, believe in what's coming", hindi: "tks pyk x;k ml dk ihBk u djks tks vkus okyk gS ml ij fo'okl j[kksA" },
+  { original: "If the path is difficult, the destination will be beautiful", hindi: "vxj jklk dfBu gS rks eanj yh [kwcqlr gksxhA" }
+
+
     ]
   },  
   {
@@ -117,11 +119,12 @@ module.exports = [
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_8.png",
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
     sentences: [     
-      { original: "If this continues, you will regret", hindi: "" },
-      { original: "If this continues, our friendship will break", hindi: "" },
-      { original: "If this continues, prices will rise more", hindi: "" },
-      { original: "If this continues, children will be spoiled", hindi: "" },
-      { original: "If this goes one, the house will be ruined", hindi: "" }
+     { original: "If this continues, you will regret", hindi: "vxj ,slk gh pyk jgk rks rqEgsa ifjpkVuk i<+sxhA" },
+{ original: "If this continues, our friendship will break", hindi: "vxj ,slk gh pyk jgk rks gekjh nkslr VwV tk,xhA" },
+{ original: "If this continues, prices will rise more", hindi: "vxj ,slk gh pyk jgk rks nkew vkSj c<+ tk,axsA" },
+{ original: "If this continues, children will be spoiled", hindi: "vxj ,slk gh pyk jgk rks cPps fcxM+ tk,axsA" },
+{ original: "If this goes on, the house will be ruined", hindi: "vxj ,slk gh pyk jgk rks ?kj cjckn gks tk,xkA" },
+
     ]
   },  
   {
@@ -144,10 +147,11 @@ module.exports = [
     ImageUrl: "https://raw.githubusercontent.com/dverma321/english/main/photos/anime_6.png",
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
     sentences: [     
-      { original: "What to me, let him speak", hindi: "" },
-      { original: "What to you, whoever I talk to", hindi: "" },
-      { original: "What to me, wherever he goes", hindi: "" },
-      { original: "What to you, whether I eat or not", hindi: "" }
+     { original: "What to me, let him speak", hindi: "ejs D;k ml dks cksysus nsA" },
+{ original: "What to you, whoever I talk to", hindi: "rqEgsa D;k eSa fdlh ls Hkh ckr d:waA" },
+{ original: "What to me, wherever he goes", hindi: "ejs D;k og tgk¡ Hkh tk;A" },
+{ original: "What to you, whether I eat or not", hindi: "rqEgsa D;k eSa [kkwa;Wa ;k u [kkwa;WaA" },
+
     ]
   },
   {
