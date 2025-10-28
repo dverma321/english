@@ -81,7 +81,7 @@ router.get("/all-sentences", async (req, res) => {
   }
 });
 
-// ✅ POST bulk update translations
+//  POST bulk update translations
 
 router.post("/bulk-update-translations", authenticate, async (req, res) => {
   const { updates } = req.body; // [{ original, lang: "hi", newValue }, ...]
@@ -105,10 +105,10 @@ router.post("/bulk-update-translations", authenticate, async (req, res) => {
         update: {
           $set: {
             original: update.original,
-            hindi: update.newValue, // ✅ store Hindi value in DB
+            hindi: update.newValue, // store Hindi value in DB
           },
         },
-        upsert: true, // ✅ create if not exists
+        upsert: true, 
       },
     }));
 
