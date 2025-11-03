@@ -4,7 +4,13 @@ module.exports = [
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
     sentences: [          
       { original: "Sometimes silence is the greatest answer", hindi: "" },
-      { original: "Don't stop just because of what people will say", hindi: "" }     
+      { original: "Don't stop just because of what people will say", hindi: "" },
+      { original : "Time belongs to no one, it simply passes", hindi: "" },
+      { original : "Death makes no difference between the rich and the poor", hindi : "" },
+      { original : "one day everyone has to die, then why so much arrogance", hindi:"" },
+      { original: "The shroud has no pockets, yet people run after wealth", hindi: ""},
+      { original : "The one who makes others cry also has to cry one day", hindi: "" }
+
     ]
   },    
   {
