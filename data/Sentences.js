@@ -5,11 +5,20 @@ module.exports = [
     sentences: [          
       { original: "Sometimes silence is the greatest answer", hindi: "" },
       { original: "Don't stop just because of what people will say", hindi: "" },
-      { original : "Time belongs to no one, it simply passes", hindi: "" },
-      { original : "Death makes no difference between the rich and the poor", hindi : "" },
-      { original : "one day everyone has to die, then why so much arrogance", hindi:"" },
-      { original: "The shroud has no pockets, yet people run after wealth", hindi: ""},
-      { original : "The one who makes others cry also has to cry one day", hindi: "" }
+      { original : "Time belongs to no one, it simply passes", hindi: "le; dksbZ dk ugha gksrk] og rks lgh gksdj cSB tkrk gS" },
+      { original : "Death makes no difference between the rich and the poor", hindi : "e`R;q vkneh vkSj NksVh esa dksbZ varj ugha j[krh" },
+      { original : "one day everyone has to die, then why so much arrogance", hindi:"dksbZ fnu lc dks e`R;q gksuh gS rks D;ksa bl vkReku dk ?kksj" },
+      { original: "The shroud has no pockets, yet people run after wealth", hindi: "vkuh esa dksbZ QkWMk ugha gksrk] rc Hkh yksx /ku ds ihNs iM+rs gSa" },
+      { original : "The one who makes others cry also has to cry one day", hindi: "tks vkSjksa dks cry djrk gS] mls Hkh ,d fnu cry djuk iM+rk gS" },
+      { original : "one day everyone has to die, then why so much arrogance", hindi:"dksbZ fnu lc dks e`R;q gksuh gS rks D;ksa bl vkReku dk ?kksj" },
+      { original: "The shroud has no pockets, yet people run after wealth", hindi: "vkuh esa dksbZ QkWMk ugha gksrk] rc Hkh yksx /ku ds ihNs iM+rs gSa" },
+      { original : "The one who makes others cry also has to cry one day", hindi: "tks vkSjksa dks cry djrk gS] mls Hkh ,d fnu cry djuk iM+rk gS" },
+      { original: "The one you ignore today will remember you tomorrow", hindi: "tks vk rks dks vkt fujk'kkrs gS og rks vk dks rHkkbZ /kedk djsxk" },
+      { original: "Life is just a journey, the destination is dust", hindi: "thou ,d ifjokj gS] mRrjnk;] cgq cgq xje gS" },
+      { original: "When the breath stops, ego has no meaning", hindi: "tc vkdfyr gks tkrh gS] ego dk dksbZ rkRi;Z ugha jgrk" },
+      { original: "A person dies, only his memories remain", hindi: "O;fDr e`R;q gks tkrk gS] dsoy mlds Kku cuk jgrs gSa" },
+      { original: "Never look down on anyone, death makes everyone equal", hindi: "dksbZ dks Hkh fuLrkjh ls u ns[k] e`R;q lHkh dks leku dj nsrh gS" },
+
 
     ]
   },    
