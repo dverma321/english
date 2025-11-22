@@ -1,4 +1,40 @@
 module.exports = [
+   {
+    Heading: "Reflections on Life, Hope & Reality",      
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
+    sentences: [
+    { original: "you turned out better than expected", hindi: "" },
+    { original: "I gave you more than you expected", hindi: "" },
+    { original: "He didn't live up to the expectations", hindi: "" },
+    { original: "I have a small hope from you", hindi: "" },
+    { original: "Don't expect more than necessary", hindi: "" },
+    { original: "He always inspires hopes", hindi: "" },
+    { original: "Keep working with hope", hindi: "" },
+    { original: "The greatest tragedy of life is that we become wise too late", hindi: "" },
+    { original: "Some stories are written in tears, not in smiles", hindi: "" },
+    { original: "What we lose often teaches us how to live", hindi: "" },
+    { original: "Every pain comes disguised as a lesson", hindi: "" },
+    { original: "Some people live but their memories never do", hindi: "" },
+    { original: "Sometimes unfulfilled dreams are the truest reality", hindi: "" },
+    { original: "The tragedy is not that we die, but that we die while still living", hindi: "" }
+  ]     
+  },    
+  {
+    Heading: "Attitude, Strength & Positivity",      
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+     sentences: [
+      { original: "you must have heard the name", hindi: "" },
+      { original: "Life is hell, but I'm still proud", hindi: "" },
+      { original: "The line starts from where we stand", hindi: "" },
+      { original: "When it comes to relationships, I'm your daddy", hindi: "" },
+      { original: "Many like you come to my bed", hindi: "" },
+      { original: "I've seen many dogs like you", hindi: "" },
+      { original: "Whatever you're thinking, We've already done", hindi: "" },
+      { original: "Hatred spreads only darkness", hindi: "" },
+      { original: "Always answer hate with a smile", hindi: "" }
+    ];     
+  },    
+
   {
     Heading: "Wisdom and Mindset",      
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
