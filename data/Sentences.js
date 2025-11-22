@@ -34,6 +34,28 @@ module.exports = [
       { original: "Always answer hate with a smile", hindi: "" }
     ]     
   },    
+    {
+    Heading: "Attitude",      
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+   {
+    sentences: [
+    { "original": "Yes, by all means", "hindi": "gkWa] fcydqy" },
+    { "original": "No, not at all", "hindi": "ugha] fcydqy ugha" },
+    { "original": "Never mind", "hindi": "dksbZ ckr ugha" },
+    { "original": "Nothing else", "hindi": "vksj dqN ugha" },
+    { "original": "Rest assured", "hindi": "fu;fer jgs" },
+    { "original": "How disgraceful", "hindi": "fduh 'kknkc" },
+    { "original": "How tragic", "hindi": "fduh nwjd" },
+    { "original": "How disgusting", "hindi": "fduh ?kq”̀d" },
+    { "original": "Not a bit", "hindi": "tjr Hkh ugha" },
+    { "original": "As you please", "hindi": "tSls vki pkgs" },
+    { "original": "As you like", "hindi": "tSls vki dks iSlk" },
+    { "original": "How absurd", "hindi": "fduh gkfl;lrk" },
+    { "original": "By God's grace", "hindi": "bZ’oj dh Øwika ls" },
+    { "original": "Good heavens", "hindi": "gs Hkxoku" },
+    { "original": "Not the least", "hindi": "tjr Hkh ugha" }
+  ]
+  },    
 
   {
     Heading: "Wisdom and Mindset",      
