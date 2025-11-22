@@ -36,8 +36,7 @@ module.exports = [
   },    
     {
     Heading: "Attitude",      
-    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
-   {
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",   
     sentences: [
     { "original": "Yes, by all means", "hindi": "gkWa] fcydqy" },
     { "original": "No, not at all", "hindi": "ugha] fcydqy ugha" },
