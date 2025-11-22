@@ -32,7 +32,7 @@ module.exports = [
       { original: "Whatever you're thinking, We've already done", hindi: "" },
       { original: "Hatred spreads only darkness", hindi: "" },
       { original: "Always answer hate with a smile", hindi: "" }
-    ];     
+    ]     
   },    
 
   {
