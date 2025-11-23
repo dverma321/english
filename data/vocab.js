@@ -1,5 +1,78 @@
 module.exports = [
  {
+  "word": "Senility",
+  "synonyms": ["old age", "dotage", "feebleness", "decline", "senescence"],
+  "antonyms": ["youth", "vigor", "strength", "alertness", "robustness"],
+  "pronounciation": "lfuyfV"
+},
+{
+  "word": "Scabies",
+  "synonyms": ["itch", "rash", "skin infection", "mite infestation", "dermatitis"],
+  "antonyms": ["healthy skin", "clear skin", "uninfected", "clean skin", "normal skin"],
+  "pronounciation": "Ldscht"
+},
+{
+  "word": "Servility",
+  "synonyms": ["submissiveness", "obedience", "humbleness", "slavishness", "fawning"],
+  "antonyms": ["independence", "confidence", "assertiveness", "self-respect", "dignity"],
+  "pronounciation": "lfoyfV"
+},
+{
+  "word": "Solitude",
+  "synonyms": ["loneliness", "seclusion", "isolation", "retirement", "aloneness"],
+  "antonyms": ["company", "companionship", "society", "togetherness", "community"],
+  "pronounciation": "lkWfyV;wM"
+},
+{
+  "word": "Tweak",
+  "synonyms": ["adjust", "modify", "fine-tune", "alter", "refine"],
+  "antonyms": ["damage", "ruin", "misadjust", "worsen", "degrade"],
+  "pronounciation": "V~sDsd"
+},
+{
+  "word": "Kindle",
+  "synonyms": ["ignite", "spark", "light", "start", "arouse"],
+  "antonyms": ["extinguish", "douse", "quench", "suppress", "smother"],
+  "pronounciation": "fdUMuy"
+},
+{
+  "word": "Troll",
+  "synonyms": ["harass online", "provoke", "bait", "annoy", "mock"],
+  "antonyms": ["support", "encourage", "compliment", "praise", "uplift"],
+  "pronounciation": "Vªksy"
+},
+ {
+  "word": "Boon",
+  "synonyms": ["blessing", "benefit", "advantage", "godsend", "help"],
+  "antonyms": ["curse", "misfortune", "hindrance", "drawback", "disadvantage"],
+  "pronounciation": "cwu"
+},
+{
+  "word": "Chide",
+  "synonyms": ["scold", "rebuke", "reprimand", "criticize", "admonish"],
+  "antonyms": ["praise", "applaud", "approve", "encourage", "commend"],
+  "pronounciation": "pkbM"
+},
+{
+  "word": "Avenge",
+  "synonyms": ["revenge", "retaliate", "punish", "exact retribution", "vindicate"],
+  "antonyms": ["forgive", "pardon", "excuse", "absolve", "overlook"],
+  "pronounciation": "vosat"
+},
+{
+  "word": "Burp",
+  "synonyms": ["belch", "eruct", "bring up gas", "emit gas", "expel air"],
+  "antonyms": ["restrain gas", "hold in", "suppress", "contain", "control"],
+  "pronounciation": "ciZ"
+},
+{
+  "word": "Hiccup",
+  "synonyms": ["hiccough", "spasm", "gulp", "sudden intake", "gulping reflex"],
+  "antonyms": ["steadiness", "calm breathing", "stable breath", "smooth breathing", "normal breathing"],
+  "pronounciation": "fgDdvi"
+},
+
+ {
   "word": "Fish wife",
   "synonyms": ["scolding woman", "shrew", "scold", "termagant", "virago"],
   "antonyms": ["lady", "gentlewoman", "noblewoman", "graceful woman", "dignified woman"],
