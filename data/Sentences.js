@@ -1,5 +1,44 @@
 module.exports = [
    {
+  Heading: "Beyond Understanding",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Your decision is beyond my understanding", hindi: "" },
+    { original: "Today's situation is beyond my understanding", hindi: "" },
+    { original: "His actions are beyond my understanding", hindi: "" },
+    { original: "Her stubbornness is beyond my understanding", hindi: "" }
+  ]
+},
+{
+  Heading: "Polite Asking & Permission",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
+  sentences: [
+    { original: "Is it ok If I call you tomorrow", hindi: "" },
+    { original: "Is it ok if I come after two days", hindi: "" },
+    { original: "Is it ok if I take this right now?", hindi: "" },
+    { original: "Is it okay if I go out for a while", hindi: "" },
+    { original: "Is it okay if I tell you later", hindi: "" },
+    { original: "Is it okay if I leave early today?", hindi: "" }
+  ]
+},
+{
+  Heading: "Reality of Relationships",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Now a days, relationships are formed by need, not by heart", hindi: "" },
+    { original: "People stay with you only when they benefit from you", hindi: "" },
+    { original: "When their work ends, your relationship ends too", hindi: "" },
+    { original: "The truth is, people don't change-only their masks change", hindi: "" },
+    { original: "Those who criticize you are the first ones to need you later", hindi: "" },
+    { original: "Two-faced people always betray with a smile", hindi: "" },
+    { original: "A real person is the one who stands by you without any benefit", hindi: "" },
+    { original: "But genuine people have become extremely rare today", hindi: "" },
+    { original: "Fake relationships give the deepest wounds", hindi: "" },
+    { original: "And these wounds slowly begin to make a person stronger", hindi: "" }
+  ]
+},  
+
+   {
     Heading: "Reflections on Life, Hope & Reality",      
     VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
     sentences: [
@@ -16,7 +55,12 @@ module.exports = [
     { original: "Every pain comes disguised as a lesson", hindi: "" },
     { original: "Some people live but their memories never do", hindi: "" },
     { original: "Sometimes unfulfilled dreams are the truest reality", hindi: "" },
-    { original: "The tragedy is not that we die, but that we die while still living", hindi: "" }
+    { original: "The tragedy is not that we die, but that we die while still living", hindi: "" },
+    { original: "Don't dream small, Poverty is already enough for the small dreams", hindi: "" },
+    { original: "The hardwork of the poor is stronger than the luck of the rich", hindi: "" },
+    { original: "you must try before you consider losing", hindi: "" },
+    { original: "The day you change, the world will also change", hindi: "" },
+    { original: "Don't stop until you tired", hindi: "" }
   ]     
   },    
   {
@@ -58,7 +102,7 @@ module.exports = [
 
   {
     Heading: "Wisdom and Mindset",      
-    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
     sentences: [          
       { original: "Sometimes silence is the greatest answer", hindi: "" },
       { original: "Don't stop just because of what people will say", hindi: "" },
@@ -111,7 +155,7 @@ module.exports = [
   },    
   {
     Heading: "let others",      
-    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+    VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
     sentences: [         
   { original: "I will neither get up nor let others get up", hindi: "eSa u [kqn mBwaxk u nwljs dks mBuk nswaxkA" },
   { original: "I will neither sleep nor let you sleep", hindi: "eSa u [kqn lkswaxk u rqEgsa lksus nswaxkA" },
