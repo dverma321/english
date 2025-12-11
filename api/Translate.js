@@ -81,7 +81,7 @@ router.get("/all-sentences", async (req, res) => {
   }
 });
 
-//  POST bulk update translations
+// ✅ POST bulk update translations
 
 router.post("/bulk-update-translations", authenticate, async (req, res) => {
   const { updates } = req.body; // [{ original, lang: "hi", newValue }, ...]
@@ -105,10 +105,10 @@ router.post("/bulk-update-translations", authenticate, async (req, res) => {
         update: {
           $set: {
             original: update.original,
-            hindi: update.newValue, // store Hindi value in DB
+            hindi: update.newValue, // ✅ store Hindi value in DB
           },
         },
-        upsert: true, 
+        upsert: true, // ✅ create if not exists
       },
     }));
 
@@ -122,6 +122,64 @@ router.post("/bulk-update-translations", authenticate, async (req, res) => {
   } catch (err) {
     console.error("Bulk update failed:", err);
     res.status(500).json({ message: "❌ Failed to update sentences" });
+  }
+});
+
+// search functionality on sentence viewer app
+
+router.get("/search-sentences", async (req, res) => {
+  try {
+    const query = req.query.q?.trim();
+    if (!query) {
+      return res.status(400).json({ success: false, message: "Missing search query" });
+    }
+
+    // 1️⃣ Search in static array
+    const staticResults = sentencesArray.flatMap(group =>
+      group.sentences
+        .filter(s => {
+          const text = typeof s === "string" ? s : s.original;
+          return text.toLowerCase().includes(query.toLowerCase());
+        })
+        .map(s => ({
+          heading: group.Heading,
+          original: typeof s === "string" ? s : s.original,
+          hindi: typeof s === "string" ? "" : s.hindi || ""
+        }))
+    );
+
+    // 2️⃣ Search in DB (case-insensitive)
+    const dbResults = await Translation.find({
+      original: { $regex: query, $options: "i" }
+    }).lean();
+
+    // 3️⃣ Normalize DB data
+    const formattedDbResults = dbResults.map(doc => ({
+      heading: "From Database",
+      original: doc.original,
+      hindi:
+        typeof doc.hindi === "string"
+          ? doc.hindi
+          : doc.hindi?.value || ""
+    }));
+
+    // 4️⃣ Merge both sources (avoid duplicates by original)
+    const combined = [...staticResults, ...formattedDbResults];
+    const uniqueCombined = Array.from(
+      new Map(combined.map(item => [item.original, item])).values()
+    );
+
+    // 5️⃣ Sort by relevance (optional)
+    const sorted = uniqueCombined.sort((a, b) => {
+      const aStarts = a.original.toLowerCase().startsWith(query.toLowerCase());
+      const bStarts = b.original.toLowerCase().startsWith(query.toLowerCase());
+      return aStarts === bStarts ? 0 : aStarts ? -1 : 1;
+    });
+
+    res.json({ success: true, data: sorted });
+  } catch (err) {
+    console.error("Error searching sentences:", err);
+    res.status(500).json({ success: false, message: "Server error" });
   }
 });
 
