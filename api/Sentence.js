@@ -29,7 +29,16 @@ router.post('/sentences', async (req, res) => {
         const clientLangMap = {};
 
         translations.forEach(doc => {
-            hindiMap[doc.original] = doc.hindi?.value || "";
+            let hindiValue = "";
+
+            if (typeof doc.hindi === "string") {
+                hindiValue = doc.hindi;
+            } else if (typeof doc.hindi === "object" && doc.hindi?.value) {
+                hindiValue = doc.hindi.value;
+            }
+
+            hindiMap[doc.original] = hindiValue;
+
             clientLangMap[doc.original] = doc.clientLang?.[clientLang]?.approved || "";
         });
 
@@ -53,7 +62,9 @@ router.post('/sentences', async (req, res) => {
                 const predefinedHindi = typeof sentence === "object" ? sentence.hindi : "";
                 return {
                     original: text,
-                    hindi: hindiMap[text] || predefinedHindi || "",
+                    hindi: hindiMap[text] !== undefined && hindiMap[text] !== ""
+                        ? hindiMap[text]
+                        : (predefinedHindi || ""),
                     clientLang: clientLangMap[text] || ""
                 };
             });
@@ -126,25 +137,25 @@ router.get("/sentences/:heading", async (req, res) => {
 });
 
 router.post('/update-translation', authenticate, async (req, res) => {
-  const { original, lang, newValue } = req.body;
+    const { original, lang, newValue } = req.body;
 
-  try {
-    let update = {};
+    try {
+        let update = {};
 
-    if (lang === 'hi') {
-      // Directly store the admin value for Hindi (no "approved" field)
-      update = { 'hindi.value': newValue };
-    } else {
-      // For other dynamic clientLangs, store in "approved" field
-      update = { [`clientLang.${lang}.approved`]: newValue };
+        if (lang === 'hi') {
+            // Directly store the admin value for Hindi (no "approved" field)
+            update = { 'hindi.value': newValue };
+        } else {
+            // For other dynamic clientLangs, store in "approved" field
+            update = { [`clientLang.${lang}.approved`]: newValue };
+        }
+
+        await Translation.findOneAndUpdate({ original }, { $set: update }, { upsert: true });
+
+        res.json({ message: 'Translation updated successfully' });
+    } catch (err) {
+        res.status(500).json({ error: 'Failed to update translation' });
     }
-
-    await Translation.findOneAndUpdate({ original }, { $set: update }, { upsert: true });
-
-    res.json({ message: 'Translation updated successfully' });
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to update translation' });
-  }
 });
 
 module.exports = router;
