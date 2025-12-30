@@ -1,4 +1,79 @@
 module.exports = [
+
+   {
+  Heading: "What's More",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    {
+      original: "She is married and what's more she has two kids",
+      hindi: "वह शादीशुदा है और इसके अलावा उसके दो बच्चे भी हैं"
+    },
+    {
+      original: "I helped him and what's more I gave him money also",
+      hindi: "मैंने उसकी मदद की और इसके अलावा मैंने उसे पैसे भी दिए"
+    },
+    {
+      original: "You should learn English and what's more you should do practice",
+      hindi: "तुम्हें अंग्रेज़ी सीखनी चाहिए और इसके अलावा अभ्यास भी करना चाहिए"
+    }
+  ]
+},
+
+   {
+  Heading: "Wishes & Blessings",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    {
+      original: "Wishing you success",
+      hindi: "आपको सफलता की शुभकामनाएँ"
+    },
+    {
+      original: "May all your wishes come true",
+      hindi: "आपकी सभी इच्छाएँ पूरी हों"
+    },
+    {
+      original: "Wishing you a lucky time",
+      hindi: "आपके लिए शुभ समय की कामना करता हूँ"
+    },
+    {
+      original: "Have a wonderful new journey",
+      hindi: "आपकी नई यात्रा शानदार हो"
+    },
+    {
+      original: "May you always keep smiling",
+      hindi: "आप हमेशा मुस्कुराते रहें"
+    },
+    {
+      original: "May you receive what you desire",
+      hindi: "आपको वह सब मिले जो आप चाहते हैं"
+    },
+    {
+      original: "Wishing you great results",
+      hindi: "आपको शानदार परिणाम मिलें"
+    },
+    {
+      original: "Sending positive vibes to you",
+      hindi: "आपको सकारात्मक ऊर्जा भेज रहा हूँ"
+    },
+    {
+      original: "Wishing you a life without sorrow",
+      hindi: "आपका जीवन दुःख रहित हो"
+    },
+    {
+      original: "May your hopes come true",
+      hindi: "आपकी उम्मीदें पूरी हों"
+    },
+    {
+      original: "May God help you",
+      hindi: "भगवान आपकी सहायता करें"
+    },
+    {
+      original: "May happiness increase in your life",
+      hindi: "आपके जीवन में खुशियाँ बढ़ें"
+    }
+  ]
+},
+
    {
   Heading: "Beyond Understanding",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
