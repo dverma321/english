@@ -1,6 +1,67 @@
 module.exports = [
 
    {
+  Heading: "In the Course of Conversation",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "In the course of conversation, I came to know that he was a doctor", hindi: "बातचीत के दौरान मुझे पता चला कि वह डॉक्टर था" },
+    { original: "In the course of conversation, she told me about her family", hindi: "बातचीत के दौरान उसने मुझे अपने परिवार के बारे में बताया" },
+    { original: "In the course of conversation, we discussed our future plans", hindi: "बातचीत के दौरान हमने अपनी भविष्य की योजनाओं पर चर्चा की" }
+  ]
+},
+
+{
+  Heading: "This Very Moment / Right Now",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I am talking to you this very moment", hindi: "मैं इसी वक्त तुमसे बात कर रहा हूँ" },
+    { original: "She is studying right now", hindi: "वह अभी इसी वक्त पढ़ाई कर रही है" },
+    { original: "I need your help this very moment", hindi: "मुझे इसी वक्त तुम्हारी मदद चाहिए" }
+  ]
+},
+
+{
+  Heading: "Before We Knew It",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Before we knew it, the train had arrived", hindi: "हमें पता भी नहीं चला और ट्रेन आ गई" },
+    { original: "Before we knew it, the day was over", hindi: "हमें पता भी नहीं चला और दिन खत्म हो गया" },
+    { original: "Before we knew it, everyone had left", hindi: "हमें पता भी नहीं चला और सब लोग चले गए" }
+  ]
+},
+
+{
+  Heading: "For No Apparent Reason",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He started shouting for no apparent reason", hindi: "वह बिना किसी स्पष्ट कारण के चिल्लाने लगा" },
+    { original: "She was crying for no apparent reason", hindi: "वह बिना किसी स्पष्ट कारण के रो रही थी" },
+    { original: "The car stopped for no apparent reason", hindi: "गाड़ी बिना किसी स्पष्ट कारण के रुक गई" }
+  ]
+},
+
+{
+  Heading: "With the Passage of Time",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "With the passage of time, he became more confident", hindi: "समय बीतने के साथ वह अधिक आत्मविश्वासी हो गया" },
+    { original: "With the passage of time, things became easier", hindi: "समय बीतने के साथ चीज़ें आसान हो गईं" },
+    { original: "With the passage of time, people forget their problems", hindi: "समय बीतने के साथ लोग अपनी समस्याएँ भूल जाते हैं" }
+  ]
+},
+
+{
+  Heading: "It Is Not Worthwhile",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "It is not worthwhile going there today", hindi: "आज वहाँ जाना उचित नहीं है" },
+    { original: "It is not worthwhile having fast food daily", hindi: "रोज़ फास्ट फूड खाना उचित नहीं है" },
+    { original: "It is not worthwhile doing a job here", hindi: "यहाँ नौकरी करना उचित नहीं है" },
+    { original: "It is not worthwhile helping this man", hindi: "इस आदमी की मदद करना उचित नहीं है" }
+  ]
+},
+
+   {
   Heading: "What's More",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
   sentences: [
