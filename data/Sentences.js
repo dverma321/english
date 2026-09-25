@@ -1,6 +1,116 @@
 module.exports = [
 
    {
+  Heading: "Unless",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Unless you try, you won't know", hindi: "जब तक तुम कोशिश नहीं करोगे, तुम्हें पता नहीं चलेगा" },
+    { original: "Don't call me unless it's urgent", hindi: "जब तक बहुत ज़रूरी न हो, मुझे फोन मत करना" },
+    { original: "Unless it rains, we'll go out", hindi: "जब तक बारिश नहीं होती, हम बाहर जाएंगे" }
+  ]
+},
+
+{
+  Heading: "I Was Wondering If",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I was wondering if you could help me", hindi: "मैं सोच रहा था कि क्या आप मेरी मदद कर सकते हैं" },
+    { original: "I was wondering if you were coming tomorrow", hindi: "मैं सोच रहा था कि क्या तुम कल आ रहे हो" },
+    { original: "I was wondering if I could sit here", hindi: "मैं सोच रहा था कि क्या मैं यहाँ बैठ सकता हूँ" }
+  ]
+},
+
+{
+  Heading: "As of Now",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "As of now, don't go there", hindi: "फिलहाल, वहाँ मत जाना" },
+    { original: "As of now, don't show me your face", hindi: "फिलहाल, मुझे अपना चेहरा मत दिखाना" },
+    { original: "As of now, be careful", hindi: "फिलहाल, सावधान रहो" }
+  ]
+},
+
+{
+  Heading: "I Am Getting",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I am getting called for an interview", hindi: "मुझे इंटरव्यू के लिए बुलाया जा रहा है" },
+    { original: "I am getting selected for the job", hindi: "मेरा नौकरी के लिए चयन हो रहा है" },
+    { original: "I am getting cheated by people", hindi: "लोग मेरे साथ धोखा कर रहे हैं" }
+  ]
+},
+
+{
+  Heading: "Despite Being Told Not To",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Despite being told not to, he went outside", hindi: "मना किए जाने के बावजूद, वह बाहर चला गया" },
+    { original: "Despite being told not to, she used my phone", hindi: "मना किए जाने के बावजूद, उसने मेरा फोन इस्तेमाल किया" },
+    { original: "Despite being told not to, she made the same mistake again", hindi: "मना किए जाने के बावजूद, उसने फिर वही गलती की" }
+  ]
+},
+
+{
+  Heading: "Something Didn't Sit Right With Me",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Something didn't sit right with me, so I decided to leave", hindi: "मुझे कुछ ठीक नहीं लगा, इसलिए मैंने जाने का फैसला किया" },
+    { original: "Something didn't sit right with me about his story", hindi: "उसकी कहानी के बारे में मुझे कुछ ठीक नहीं लगा" },
+    { original: "Something didn't sit right with me when he refused to answer", hindi: "जब उसने जवाब देने से इनकार किया तो मुझे कुछ ठीक नहीं लगा" }
+  ]
+},
+
+{
+  Heading: "Slip It Into the Conversation",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I slipped it into the conversation", hindi: "मैंने बातों-बातों में यह बात कह दी" },
+    { original: "I slipped the news into the conversation", hindi: "मैंने बातचीत के दौरान बातों-बातों में यह खबर बता दी" },
+    { original: "She slipped the topic into the conversation", hindi: "उसने बातचीत के दौरान बातों-बातों में वह विषय छेड़ दिया" }
+  ]
+},
+
+{
+  Heading: "Sidestep the Question",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He sidestepped the question", hindi: "उसने सवाल का सीधा जवाब देने से बचने की कोशिश की" },
+    { original: "She sidestepped my question and changed the topic", hindi: "उसने मेरे सवाल का जवाब देने से बचते हुए विषय बदल दिया" },
+    { original: "Don't sidestep the question; just give me an honest answer", hindi: "सवाल से मत बचो; बस मुझे ईमानदारी से जवाब दो" }
+  ]
+},
+
+{
+  Heading: "Take a Wild Guess",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I was taking a wild guess", hindi: "मैं बस अंदाज़ा लगा रहा था" },
+    { original: "Let me take a wild guess", hindi: "मुझे एक अंदाज़ा लगाने दो" },
+    { original: "I don't know the exact answer, but I'll take a wild guess", hindi: "मुझे सही जवाब नहीं पता, लेकिन मैं एक अंदाज़ा लगाता हूँ" }
+  ]
+},
+
+{
+  Heading: "Shatter My Expectations",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He shattered my expectations", hindi: "उसने मेरी उम्मीदों को पूरी तरह तोड़ दिया" },
+    { original: "The result shattered my expectations", hindi: "नतीजे ने मेरी उम्मीदों को पूरी तरह तोड़ दिया" },
+    { original: "Her performance shattered all my expectations", hindi: "उसके प्रदर्शन ने मेरी सभी उम्मीदों को पूरी तरह बदल दिया" }
+  ]
+},
+
+{
+  Heading: "I Had a Gut Feeling",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I had a gut feeling that something was wrong", hindi: "मुझे अंदर से लग रहा था कि कुछ गलत था" },
+    { original: "I had a gut feeling that he was lying", hindi: "मुझे अंदर से महसूस हो रहा था कि वह झूठ बोल रहा था" },
+    { original: "I had a gut feeling that we shouldn't go there", hindi: "मुझे अंदर से लग रहा था कि हमें वहाँ नहीं जाना चाहिए" }
+  ]
+},
+
+   {
   Heading: "In the Course of Conversation",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
   sentences: [
