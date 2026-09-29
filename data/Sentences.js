@@ -14,7 +14,7 @@ module.exports = [
 
 {
   Heading: "It's not rocket science",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "Don't worry, it's not rocket science.", hindi: "चिंता मत करो, यह कोई बहुत मुश्किल काम नहीं है।" },
     { original: "Using this app is not rocket science.", hindi: "इस ऐप को इस्तेमाल करना कोई बहुत मुश्किल काम नहीं है।" },
@@ -38,7 +38,7 @@ module.exports = [
 
 {
   Heading: "Let things run their course",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "Let's not interfere and let things run their course.", hindi: "चलो दखल न दें और चीज़ों को अपने तरीके से होने दें।" },
     { original: "Don't make a decision too quickly. Let things run their course.", hindi: "बहुत जल्दी फैसला मत करो। चीज़ों को थोड़ा समय दो।" },
@@ -62,7 +62,7 @@ module.exports = [
 
 {
   Heading: "You are all in cahoots with him",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "You are all in cahoots with him, aren't you?", hindi: "तुम सब उसके साथ मिले हुए हो, है ना?" },
     { original: "I think they are in cahoots with him.", hindi: "मुझे लगता है कि वे उसके साथ मिले हुए हैं।" },
@@ -86,7 +86,7 @@ module.exports = [
 
 {
   Heading: "Before we knew it",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "We started talking, and before we knew it, it was midnight.", hindi: "हमने बात करना शुरू किया और देखते ही देखते आधी रात हो गई।" },
     { original: "Before we knew it, the weekend was over.", hindi: "देखते ही देखते सप्ताहांत खत्म हो गया।" },
@@ -110,7 +110,7 @@ module.exports = [
 
 {
   Heading: "With the passage of time",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "With the passage of time, things will get better.", hindi: "समय बीतने के साथ चीज़ें बेहतर हो जाएंगी।" },
     { original: "With the passage of time, I became more confident.", hindi: "समय बीतने के साथ मेरा आत्मविश्वास बढ़ता गया।" },
@@ -134,7 +134,7 @@ module.exports = [
 
    {
   Heading: "Unless",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "Unless you try, you won't know", hindi: "जब तक तुम कोशिश नहीं करोगे, तुम्हें पता नहीं चलेगा" },
     { original: "Don't call me unless it's urgent", hindi: "जब तक बहुत ज़रूरी न हो, मुझे फोन मत करना" },
@@ -154,7 +154,7 @@ module.exports = [
 
 {
   Heading: "As of Now",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "As of now, don't go there", hindi: "फिलहाल, वहाँ मत जाना" },
     { original: "As of now, don't show me your face", hindi: "फिलहाल, मुझे अपना चेहरा मत दिखाना" },
@@ -174,7 +174,7 @@ module.exports = [
 
 {
   Heading: "Despite Being Told Not To",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "Despite being told not to, he went outside", hindi: "मना किए जाने के बावजूद, वह बाहर चला गया" },
     { original: "Despite being told not to, she used my phone", hindi: "मना किए जाने के बावजूद, उसने मेरा फोन इस्तेमाल किया" },
@@ -194,7 +194,7 @@ module.exports = [
 
 {
   Heading: "Slip It Into the Conversation",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "I slipped it into the conversation", hindi: "मैंने बातों-बातों में यह बात कह दी" },
     { original: "I slipped the news into the conversation", hindi: "मैंने बातचीत के दौरान बातों-बातों में यह खबर बता दी" },
@@ -214,7 +214,7 @@ module.exports = [
 
 {
   Heading: "Take a Wild Guess",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "I was taking a wild guess", hindi: "मैं बस अंदाज़ा लगा रहा था" },
     { original: "Let me take a wild guess", hindi: "मुझे एक अंदाज़ा लगाने दो" },
@@ -234,7 +234,7 @@ module.exports = [
 
 {
   Heading: "I Had a Gut Feeling",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "I had a gut feeling that something was wrong", hindi: "मुझे अंदर से लग रहा था कि कुछ गलत था" },
     { original: "I had a gut feeling that he was lying", hindi: "मुझे अंदर से महसूस हो रहा था कि वह झूठ बोल रहा था" },
@@ -254,7 +254,7 @@ module.exports = [
 
 {
   Heading: "This Very Moment / Right Now",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "I am talking to you this very moment", hindi: "मैं इसी वक्त तुमसे बात कर रहा हूँ" },
     { original: "She is studying right now", hindi: "वह अभी इसी वक्त पढ़ाई कर रही है" },
@@ -274,7 +274,7 @@ module.exports = [
 
 {
   Heading: "For No Apparent Reason",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "He started shouting for no apparent reason", hindi: "वह बिना किसी स्पष्ट कारण के चिल्लाने लगा" },
     { original: "She was crying for no apparent reason", hindi: "वह बिना किसी स्पष्ट कारण के रो रही थी" },
@@ -294,7 +294,7 @@ module.exports = [
 
 {
   Heading: "It Is Not Worthwhile",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "It is not worthwhile going there today", hindi: "आज वहाँ जाना उचित नहीं है" },
     { original: "It is not worthwhile having fast food daily", hindi: "रोज़ फास्ट फूड खाना उचित नहीं है" },
@@ -315,7 +315,7 @@ module.exports = [
 
    {
   Heading: "Wishes & Blessings",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "Wishing you success", hindi: "आपको सफलता की शुभकामनाएँ" },
     { original: "May all your wishes come true", hindi: "आपकी सभी इच्छाएँ पूरी हों" },
