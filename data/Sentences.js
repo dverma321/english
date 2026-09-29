@@ -1,6 +1,138 @@
 module.exports = [
 
    {
+  Heading: "His words don't hold water",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "His words don't hold water.", hindi: "उसकी बातों में कोई दम नहीं है।" },
+    { original: "His explanation doesn't hold water.", hindi: "उसकी सफाई में कोई दम नहीं है।" },
+    { original: "I don't believe him because his story doesn't hold water.", hindi: "मैं उसकी बात पर विश्वास नहीं करता क्योंकि उसकी कहानी में कोई दम नहीं है।" },
+    { original: "That excuse doesn't hold water.", hindi: "उस बहाने में कोई दम नहीं है।" },
+    { original: "Your argument doesn't hold water.", hindi: "तुम्हारी दलील में कोई दम नहीं है।" }
+  ]
+},
+
+{
+  Heading: "It's not rocket science",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Don't worry, it's not rocket science.", hindi: "चिंता मत करो, यह कोई बहुत मुश्किल काम नहीं है।" },
+    { original: "Using this app is not rocket science.", hindi: "इस ऐप को इस्तेमाल करना कोई बहुत मुश्किल काम नहीं है।" },
+    { original: "You can learn it easily; it's not rocket science.", hindi: "तुम इसे आसानी से सीख सकते हो; यह कोई बहुत मुश्किल काम नहीं है।" },
+    { original: "Cooking pasta isn't rocket science.", hindi: "पास्ता बनाना कोई बहुत मुश्किल काम नहीं है।" },
+    { original: "Just follow the instructions. It's not rocket science.", hindi: "बस निर्देशों का पालन करो। यह कोई बहुत मुश्किल काम नहीं है।" }
+  ]
+},
+
+{
+  Heading: "What is meant to be cannot be changed",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "What is meant to be cannot be changed.", hindi: "जो होना तय है, उसे बदला नहीं जा सकता।" },
+    { original: "Don't worry too much. What is meant to be cannot be changed.", hindi: "बहुत ज्यादा चिंता मत करो। जो होना तय है, उसे बदला नहीं जा सकता।" },
+    { original: "Sometimes, you just have to accept what is meant to be.", hindi: "कभी-कभी तुम्हें जो होना तय है, उसे स्वीकार करना पड़ता है।" },
+    { original: "We did our best, but what is meant to be cannot be changed.", hindi: "हमने अपनी पूरी कोशिश की, लेकिन जो होना तय है, उसे बदला नहीं जा सकता।" },
+    { original: "Let's accept it and move on. What is meant to be cannot be changed.", hindi: "इसे स्वीकार करके आगे बढ़ते हैं। जो होना तय है, उसे बदला नहीं जा सकता।" }
+  ]
+},
+
+{
+  Heading: "Let things run their course",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Let's not interfere and let things run their course.", hindi: "चलो दखल न दें और चीज़ों को अपने तरीके से होने दें।" },
+    { original: "Don't make a decision too quickly. Let things run their course.", hindi: "बहुत जल्दी फैसला मत करो। चीज़ों को थोड़ा समय दो।" },
+    { original: "We should wait and let things run their course.", hindi: "हमें इंतज़ार करना चाहिए और चीज़ों को अपने तरीके से होने देना चाहिए।" },
+    { original: "Sometimes it's better to step back and let things run their course.", hindi: "कभी-कभी पीछे हटना और चीज़ों को अपने तरीके से होने देना बेहतर होता है।" },
+    { original: "Don't force anything. Just let things run their course.", hindi: "किसी चीज़ को जबरदस्ती मत करो। बस चीज़ों को अपने तरीके से होने दो।" }
+  ]
+},
+
+{
+  Heading: "All the enthusiasm just fizzled out",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "We were excited about the trip, but all the enthusiasm just fizzled out.", hindi: "हम यात्रा को लेकर उत्साहित थे, लेकिन सारा उत्साह धीरे-धीरे खत्म हो गया।" },
+    { original: "Everyone was excited about the project, but the enthusiasm fizzled out after a few weeks.", hindi: "सब लोग प्रोजेक्ट को लेकर उत्साहित थे, लेकिन कुछ हफ्तों बाद उत्साह खत्म हो गया।" },
+    { original: "I was very excited about learning guitar, but my enthusiasm fizzled out.", hindi: "मैं गिटार सीखने को लेकर बहुत उत्साहित था, लेकिन मेरा उत्साह धीरे-धीरे खत्म हो गया।" },
+    { original: "The team started with a lot of energy, but the enthusiasm soon fizzled out.", hindi: "टीम ने बहुत जोश के साथ शुरुआत की, लेकिन जल्द ही उत्साह खत्म हो गया।" },
+    { original: "Everyone loved the idea at first, but all the enthusiasm eventually fizzled out.", hindi: "शुरुआत में सभी को यह विचार पसंद आया, लेकिन आखिरकार सारा उत्साह खत्म हो गया।" }
+  ]
+},
+
+{
+  Heading: "You are all in cahoots with him",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "You are all in cahoots with him, aren't you?", hindi: "तुम सब उसके साथ मिले हुए हो, है ना?" },
+    { original: "I think they are in cahoots with him.", hindi: "मुझे लगता है कि वे उसके साथ मिले हुए हैं।" },
+    { original: "Are you two in cahoots with him?", hindi: "क्या तुम दोनों उसके साथ मिले हुए हो?" },
+    { original: "It looks like everyone is in cahoots with him.", hindi: "ऐसा लगता है कि सब लोग उसके साथ मिले हुए हैं।" },
+    { original: "I found out that they were all in cahoots with him.", hindi: "मुझे पता चला कि वे सब उसके साथ मिले हुए थे।" }
+  ]
+},
+
+{
+  Heading: "In the course of conversation",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "In the course of conversation, he mentioned that he was leaving the company.", hindi: "बातचीत के दौरान उसने बताया कि वह कंपनी छोड़ रहा है।" },
+    { original: "I found out about the meeting in the course of conversation.", hindi: "बातचीत के दौरान मुझे मीटिंग के बारे में पता चला।" },
+    { original: "She told me about her new job in the course of conversation.", hindi: "बातचीत के दौरान उसने मुझे अपनी नई नौकरी के बारे में बताया।" },
+    { original: "In the course of conversation, we realized that we had studied at the same college.", hindi: "बातचीत के दौरान हमें पता चला कि हमने एक ही कॉलेज में पढ़ाई की थी।" },
+    { original: "He brought up the issue in the course of conversation.", hindi: "बातचीत के दौरान उसने उस मुद्दे का जिक्र किया।" }
+  ]
+},
+
+{
+  Heading: "Before we knew it",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "We started talking, and before we knew it, it was midnight.", hindi: "हमने बात करना शुरू किया और देखते ही देखते आधी रात हो गई।" },
+    { original: "Before we knew it, the weekend was over.", hindi: "देखते ही देखते सप्ताहांत खत्म हो गया।" },
+    { original: "We were having fun, and before we knew it, it was time to go home.", hindi: "हम मज़े कर रहे थे और देखते ही देखते घर जाने का समय हो गया।" },
+    { original: "Before we knew it, everyone had left.", hindi: "देखते ही देखते सभी लोग चले गए।" },
+    { original: "I started watching one episode, and before I knew it, I had watched the whole season.", hindi: "मैंने एक एपिसोड देखना शुरू किया और देखते ही देखते पूरा सीज़न देख लिया।" }
+  ]
+},
+
+{
+  Heading: "For no apparent reason",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He suddenly left for no apparent reason.", hindi: "वह बिना किसी स्पष्ट कारण के अचानक चला गया।" },
+    { original: "She stopped talking to me for no apparent reason.", hindi: "उसने बिना किसी स्पष्ट कारण के मुझसे बात करना बंद कर दिया।" },
+    { original: "The computer shut down for no apparent reason.", hindi: "कंप्यूटर बिना किसी स्पष्ट कारण के बंद हो गया।" },
+    { original: "He was angry with me for no apparent reason.", hindi: "वह बिना किसी स्पष्ट कारण के मुझसे नाराज़ था।" },
+    { original: "The car stopped for no apparent reason.", hindi: "कार बिना किसी स्पष्ट कारण के रुक गई।" }
+  ]
+},
+
+{
+  Heading: "With the passage of time",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "With the passage of time, things will get better.", hindi: "समय बीतने के साथ चीज़ें बेहतर हो जाएंगी।" },
+    { original: "With the passage of time, I became more confident.", hindi: "समय बीतने के साथ मेरा आत्मविश्वास बढ़ता गया।" },
+    { original: "With the passage of time, we became good friends.", hindi: "समय बीतने के साथ हम अच्छे दोस्त बन गए।" },
+    { original: "You will understand it better with the passage of time.", hindi: "समय बीतने के साथ तुम इसे बेहतर समझोगे।" },
+    { original: "With the passage of time, the pain became easier to deal with.", hindi: "समय बीतने के साथ उस दर्द से निपटना आसान हो गया।" }
+  ]
+},
+
+{
+  Heading: "It's not worthwhile going there today",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "It's not worthwhile going there today.", hindi: "आज वहाँ जाना उचित नहीं है।" },
+    { original: "It's not worthwhile waiting for him anymore.", hindi: "अब उसके लिए इंतज़ार करना उचित नहीं है।" },
+    { original: "It's not worthwhile arguing about such a small issue.", hindi: "इतनी छोटी सी बात पर बहस करना उचित नहीं है।" },
+    { original: "It's not worthwhile spending so much money on it.", hindi: "इस पर इतना पैसा खर्च करना उचित नहीं है।" },
+    { original: "It's not worthwhile taking a taxi for such a short distance.", hindi: "इतनी कम दूरी के लिए टैक्सी लेना उचित नहीं है।" }
+  ]
+},
+
+   {
   Heading: "Unless",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
   sentences: [
