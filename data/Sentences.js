@@ -2,7 +2,7 @@ module.exports = [
 
    {
   Heading: "Came straight to",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/bloosm.mp4",
   sentences: [
     { original: "He came straight to threaten me.", hindi: "वह सीधे मुझे धमकाने आया।" },
     { original: "She came straight to my house to talk to me.", hindi: "वह मुझसे बात करने के लिए सीधे मेरे घर आई।" },
@@ -26,7 +26,7 @@ module.exports = [
 
 {
   Heading: "In the nick of time",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/green_girl.mp4",
   sentences: [
     { original: "You called me in the nick of time.", hindi: "तुमने मुझे बिल्कुल सही समय पर फोन किया।" },
     { original: "He arrived in the nick of time.", hindi: "वह बिल्कुल सही समय पर पहुँच गया।" },
@@ -38,7 +38,7 @@ module.exports = [
 
 {
   Heading: "What more can I do than this?",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/bloosm.mp4",
   sentences: [
     { original: "What more can I do than this?", hindi: "मैं इससे ज्यादा और क्या कर सकता हूँ?" },
     { original: "I've already apologized. What more can I do than this?", hindi: "मैं पहले ही माफी मांग चुका हूँ। इससे ज्यादा और क्या कर सकता हूँ?" },
@@ -50,7 +50,7 @@ module.exports = [
 
 {
   Heading: "What more can I say than this?",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/green_girl.mp4",
   sentences: [
     { original: "What more can I say than this?", hindi: "मैं इससे ज्यादा और क्या कह सकता हूँ?" },
     { original: "I've already explained everything. What more can I say than this?", hindi: "मैं पहले ही सब कुछ समझा चुका हूँ। इससे ज्यादा और क्या कह सकता हूँ?" },
@@ -62,7 +62,7 @@ module.exports = [
 
 {
   Heading: "I can't do anything more than this",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/white_abstract_1.mp4",
   sentences: [
     { original: "I've done everything I can. I can't do anything more than this.", hindi: "मैंने वह सब किया जो मैं कर सकता था। मैं इससे ज्यादा कुछ नहीं कर सकता।" },
     { original: "I can help you, but I can't do anything more than this.", hindi: "मैं तुम्हारी मदद कर सकता हूँ, लेकिन इससे ज्यादा कुछ नहीं कर सकता।" },
@@ -74,7 +74,7 @@ module.exports = [
 
 {
   Heading: "If I had my way",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/bloosm.mp4",
   sentences: [
     { original: "If I had my way, I would beat him brutally.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं उसे बुरी तरह पीटता।" },
     { original: "If I had my way, I would change the whole system.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं पूरी व्यवस्था बदल देता।" },
@@ -98,7 +98,7 @@ module.exports = [
 
 {
   Heading: "Had it not been for",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/green_girl.mp4",
   sentences: [
     { original: "Had it not been for you, I'd have failed.", hindi: "अगर तुम नहीं होते, तो मैं असफल हो जाता।" },
     { original: "Had it not been for luck, I'd have failed.", hindi: "अगर किस्मत साथ नहीं देती, तो मैं असफल हो जाता।" },
@@ -122,7 +122,7 @@ module.exports = [
 
 {
   Heading: "So-called",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/bloosm.mp4",
   sentences: [
     { original: "You are just a so-called friend.", hindi: "तुम सिर्फ नाम के दोस्त हो।" },
     { original: "He is just a so-called engineer.", hindi: "वह सिर्फ नाम का इंजीनियर है।" },
@@ -134,7 +134,7 @@ module.exports = [
 
 {
   Heading: "By the looks of it",
-  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/green_girl.mp4",
   sentences: [
     { original: "By the looks of it, he is angry.", hindi: "जिस तरह से वह दिख रहा है, उससे लगता है कि वह गुस्से में है।" },
     { original: "By the looks of it, she is tired.", hindi: "जिस तरह से वह दिख रही है, उससे लगता है कि वह थकी हुई है।" },
