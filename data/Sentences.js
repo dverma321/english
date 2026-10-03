@@ -37,7 +37,7 @@ module.exports = [
 },
 
 {
-  Heading: "What more can I do than this?",
+  Heading: "What more can I do than this",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/bloosm.mp4",
   sentences: [
     { original: "What more can I do than this?", hindi: "मैं इससे ज्यादा और क्या कर सकता हूँ?" },
@@ -49,7 +49,7 @@ module.exports = [
 },
 
 {
-  Heading: "What more can I say than this?",
+  Heading: "What more can I say than this",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/green_girl.mp4",
   sentences: [
     { original: "What more can I say than this?", hindi: "मैं इससे ज्यादा और क्या कह सकता हूँ?" },
