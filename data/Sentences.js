@@ -1,6 +1,150 @@
 module.exports = [
 
    {
+  Heading: "Came straight to",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He came straight to threaten me.", hindi: "वह सीधे मुझे धमकाने आया।" },
+    { original: "She came straight to my house to talk to me.", hindi: "वह मुझसे बात करने के लिए सीधे मेरे घर आई।" },
+    { original: "He came straight to complain about me.", hindi: "वह सीधे मेरी शिकायत करने आया।" },
+    { original: "They came straight to ask me what had happened.", hindi: "वे सीधे मुझसे पूछने आए कि क्या हुआ था।" },
+    { original: "He came straight to me and started shouting.", hindi: "वह सीधे मेरे पास आया और चिल्लाने लगा।" }
+  ]
+},
+
+{
+  Heading: "Came straight to make someone understand",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "He came straight to make me understand the situation.", hindi: "वह मुझे स्थिति समझाने के लिए सीधे आया।" },
+    { original: "She came straight to make me understand what was going on.", hindi: "वह मुझे समझाने के लिए सीधे आई कि क्या हो रहा था।" },
+    { original: "I came straight to make you understand the problem.", hindi: "मैं तुम्हें समस्या समझाने के लिए सीधे आया हूँ।" },
+    { original: "He came straight to make everyone understand his point.", hindi: "वह सबको अपनी बात समझाने के लिए सीधे आया।" },
+    { original: "She came straight to make me understand that I was wrong.", hindi: "वह मुझे समझाने के लिए सीधे आई कि मैं गलत था।" }
+  ]
+},
+
+{
+  Heading: "In the nick of time",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "You called me in the nick of time.", hindi: "तुमने मुझे बिल्कुल सही समय पर फोन किया।" },
+    { original: "He arrived in the nick of time.", hindi: "वह बिल्कुल सही समय पर पहुँच गया।" },
+    { original: "Someone came there in the nick of time.", hindi: "वहाँ कोई बिल्कुल सही समय पर आ गया।" },
+    { original: "We reached the station in the nick of time.", hindi: "हम बिल्कुल सही समय पर स्टेशन पहुँच गए।" },
+    { original: "The doctor arrived in the nick of time and saved him.", hindi: "डॉक्टर बिल्कुल सही समय पर पहुँचे और उन्होंने उसकी जान बचा ली।" }
+  ]
+},
+
+{
+  Heading: "What more can I do than this?",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "What more can I do than this?", hindi: "मैं इससे ज्यादा और क्या कर सकता हूँ?" },
+    { original: "I've already apologized. What more can I do than this?", hindi: "मैं पहले ही माफी मांग चुका हूँ। इससे ज्यादा और क्या कर सकता हूँ?" },
+    { original: "I've done everything I could. What more can I do than this?", hindi: "मैंने वह सब किया जो मैं कर सकता था। इससे ज्यादा और क्या कर सकता हूँ?" },
+    { original: "I've given you all the information. What more can I do than this?", hindi: "मैंने तुम्हें सारी जानकारी दे दी है। इससे ज्यादा और क्या कर सकता हूँ?" },
+    { original: "I've tried my best. What more can I do than this?", hindi: "मैंने अपनी पूरी कोशिश की है। इससे ज्यादा और क्या कर सकता हूँ?" }
+  ]
+},
+
+{
+  Heading: "What more can I say than this?",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "What more can I say than this?", hindi: "मैं इससे ज्यादा और क्या कह सकता हूँ?" },
+    { original: "I've already explained everything. What more can I say than this?", hindi: "मैं पहले ही सब कुछ समझा चुका हूँ। इससे ज्यादा और क्या कह सकता हूँ?" },
+    { original: "I don't know what more I can say than this.", hindi: "मुझे नहीं पता कि मैं इससे ज्यादा और क्या कह सकता हूँ।" },
+    { original: "I've told you the truth. What more can I say than this?", hindi: "मैंने तुम्हें सच बता दिया है। इससे ज्यादा और क्या कह सकता हूँ?" },
+    { original: "I've said everything I needed to say. What more can I say than this?", hindi: "मुझे जो कहना था, मैंने सब कह दिया। इससे ज्यादा और क्या कह सकता हूँ?" }
+  ]
+},
+
+{
+  Heading: "I can't do anything more than this",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I've done everything I can. I can't do anything more than this.", hindi: "मैंने वह सब किया जो मैं कर सकता था। मैं इससे ज्यादा कुछ नहीं कर सकता।" },
+    { original: "I can help you, but I can't do anything more than this.", hindi: "मैं तुम्हारी मदद कर सकता हूँ, लेकिन इससे ज्यादा कुछ नहीं कर सकता।" },
+    { original: "I've already spoken to the manager. I can't do anything more than this.", hindi: "मैं पहले ही मैनेजर से बात कर चुका हूँ। मैं इससे ज्यादा कुछ नहीं कर सकता।" },
+    { original: "I've given you my advice. I can't do anything more than this.", hindi: "मैंने तुम्हें अपनी सलाह दे दी है। मैं इससे ज्यादा कुछ नहीं कर सकता।" },
+    { original: "I've tried every possible option. I can't do anything more than this.", hindi: "मैंने हर संभव विकल्प आज़मा लिया है। मैं इससे ज्यादा कुछ नहीं कर सकता।" }
+  ]
+},
+
+{
+  Heading: "If I had my way",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "If I had my way, I would beat him brutally.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं उसे बुरी तरह पीटता।" },
+    { original: "If I had my way, I would change the whole system.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं पूरी व्यवस्था बदल देता।" },
+    { original: "If I had my way, I would never work on weekends.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं कभी सप्ताहांत में काम नहीं करता।" },
+    { original: "If I had my way, I would move to another city.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं किसी दूसरे शहर में चला जाता।" },
+    { original: "If I had my way, I would cancel the meeting.", hindi: "अगर मेरी मर्ज़ी चलती, तो मैं मीटिंग रद्द कर देता।" }
+  ]
+},
+
+{
+  Heading: "If this continues",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "If this continues, you will get trapped again.", hindi: "अगर यह ऐसे ही चलता रहा, तो तुम फिर फँस जाओगे।" },
+    { original: "If this continues, we will have to leave.", hindi: "अगर यह ऐसे ही चलता रहा, तो हमें जाना पड़ेगा।" },
+    { original: "If this continues, we will run out of money.", hindi: "अगर यह ऐसे ही चलता रहा, तो हमारे पैसे खत्म हो जाएंगे।" },
+    { original: "If this continues, you'll have serious problems.", hindi: "अगर यह ऐसे ही चलता रहा, तो तुम्हें गंभीर समस्याएँ होंगी।" },
+    { original: "If this continues, I won't be able to manage everything.", hindi: "अगर यह ऐसे ही चलता रहा, तो मैं सब कुछ संभाल नहीं पाऊँगा।" }
+  ]
+},
+
+{
+  Heading: "Had it not been for",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "Had it not been for you, I'd have failed.", hindi: "अगर तुम नहीं होते, तो मैं असफल हो जाता।" },
+    { original: "Had it not been for luck, I'd have failed.", hindi: "अगर किस्मत साथ नहीं देती, तो मैं असफल हो जाता।" },
+    { original: "Had it not been for her, I'd have quit.", hindi: "अगर वह नहीं होती, तो मैं छोड़ चुका होता।" },
+    { original: "Had it not been for this chance, I'd have left.", hindi: "अगर यह मौका नहीं मिला होता, तो मैं चला गया होता।" },
+    { original: "Had it not been for your help, I wouldn't have finished the work.", hindi: "अगर तुम्हारी मदद नहीं मिली होती, तो मैं काम पूरा नहीं कर पाता।" }
+  ]
+},
+
+{
+  Heading: "Let alone",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "I can't buy a bike, let alone a car.", hindi: "मैं बाइक तक नहीं खरीद सकता, कार की तो बात ही छोड़ दो।" },
+    { original: "He can't read, let alone write.", hindi: "वह पढ़ तक नहीं सकता, लिखने की तो बात ही छोड़ दो।" },
+    { original: "I can't take even a day off, let alone a week.", hindi: "मैं एक दिन की छुट्टी तक नहीं ले सकता, एक हफ्ते की तो बात ही छोड़ दो।" },
+    { original: "She can't afford a small house, let alone a big one.", hindi: "वह छोटा घर भी नहीं खरीद सकती, बड़े घर की तो बात ही छोड़ दो।" },
+    { original: "I don't have time to eat, let alone cook.", hindi: "मेरे पास खाना खाने तक का समय नहीं है, खाना बनाने की तो बात ही छोड़ दो।" }
+  ]
+},
+
+{
+  Heading: "So-called",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "You are just a so-called friend.", hindi: "तुम सिर्फ नाम के दोस्त हो।" },
+    { original: "He is just a so-called engineer.", hindi: "वह सिर्फ नाम का इंजीनियर है।" },
+    { original: "I'm not just a so-called doctor; I actually care about my patients.", hindi: "मैं सिर्फ नाम का डॉक्टर नहीं हूँ; मुझे वास्तव में अपने मरीजों की परवाह है।" },
+    { original: "Our friendship is not just a so-called friendship.", hindi: "हमारी दोस्ती सिर्फ नाम की दोस्ती नहीं है।" },
+    { original: "He is a so-called expert, but he doesn't know much about the subject.", hindi: "वह खुद को विशेषज्ञ कहता है, लेकिन उसे इस विषय के बारे में ज्यादा जानकारी नहीं है।" }
+  ]
+},
+
+{
+  Heading: "By the looks of it",
+  VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
+  sentences: [
+    { original: "By the looks of it, he is angry.", hindi: "जिस तरह से वह दिख रहा है, उससे लगता है कि वह गुस्से में है।" },
+    { original: "By the looks of it, she is tired.", hindi: "जिस तरह से वह दिख रही है, उससे लगता है कि वह थकी हुई है।" },
+    { original: "By the looks of it, she knows the truth.", hindi: "जिस तरह से वह व्यवहार कर रही है, उससे लगता है कि उसे सच पता है।" },
+    { original: "By the looks of it, this will work.", hindi: "जिस तरह से चीज़ें दिख रही हैं, उससे लगता है कि यह काम करेगा।" },
+    { original: "By the looks of it, we're going to have a busy day.", hindi: "जिस तरह से चीज़ें दिख रही हैं, उससे लगता है कि आज हमारा दिन व्यस्त रहेगा।" }
+  ]
+},
+
+   {
   Heading: "His words don't hold water",
   VideoUrl: "https://raw.githubusercontent.com/dverma321/english/main/livewallpapers/winter_snowflakes.mp4",
   sentences: [
